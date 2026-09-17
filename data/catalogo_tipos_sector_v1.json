@@ -1,0 +1,291 @@
+{
+  "version": "1.0",
+  "sector_types": [
+    {
+      "sector_type_id": "SPACE_OPEN",
+      "name": "Espacio abierto",
+      "category": "space",
+      "colonizable": false,
+      "flight_cost_multiplier": 1.0,
+      "evasion_modifier_pct": 0,
+      "shield_modifier_pct": 0,
+      "hull_damage_per_tick": 0,
+      "crew_risk_pct": 0,
+      "deuterium_density": 1,
+      "visibility_modifier": 1.0,
+      "hazards": [],
+      "allowed_orbital_structures": false
+    },
+    {
+      "sector_type_id": "NEB_DEUT_SPARSE",
+      "name": "Nebulosa de deuterio dispersa",
+      "category": "nebula",
+      "colonizable": false,
+      "flight_cost_multiplier": 2.0,
+      "evasion_modifier_pct": 10,
+      "shield_modifier_pct": 0,
+      "hull_damage_per_tick": 0,
+      "crew_risk_pct": 0,
+      "deuterium_density": 3,
+      "visibility_modifier": 0.85,
+      "hazards": [],
+      "allowed_orbital_structures": false
+    },
+    {
+      "sector_type_id": "NEB_DEUT_DENSE",
+      "name": "Nebulosa de deuterio densa",
+      "category": "nebula",
+      "colonizable": false,
+      "flight_cost_multiplier": 3.0,
+      "evasion_modifier_pct": 20,
+      "shield_modifier_pct": 0,
+      "hull_damage_per_tick": 0,
+      "crew_risk_pct": 0,
+      "deuterium_density": 5,
+      "visibility_modifier": 0.65,
+      "hazards": [],
+      "allowed_orbital_structures": false
+    },
+    {
+      "sector_type_id": "NEB_METAPHASIC",
+      "name": "Nebulosa metafásica",
+      "category": "nebula",
+      "colonizable": false,
+      "flight_cost_multiplier": 2.0,
+      "evasion_modifier_pct": 5,
+      "shield_modifier_pct": 15,
+      "hull_damage_per_tick": 0,
+      "crew_risk_pct": 0,
+      "deuterium_density": 1,
+      "visibility_modifier": 0.75,
+      "hazards": [
+        "modificación de escudos"
+      ],
+      "allowed_orbital_structures": false
+    },
+    {
+      "sector_type_id": "NEB_METRION",
+      "name": "Nebulosa de gas metrion",
+      "category": "nebula",
+      "colonizable": false,
+      "flight_cost_multiplier": 2.0,
+      "evasion_modifier_pct": 0,
+      "shield_modifier_pct": -10,
+      "hull_damage_per_tick": 1,
+      "crew_risk_pct": 0,
+      "deuterium_density": 1,
+      "visibility_modifier": 0.8,
+      "hazards": [
+        "daño amplificado"
+      ],
+      "allowed_orbital_structures": false
+    },
+    {
+      "sector_type_id": "NEB_CERULEAN",
+      "name": "Nebulosa cerúlea",
+      "category": "nebula",
+      "colonizable": false,
+      "flight_cost_multiplier": 2.0,
+      "evasion_modifier_pct": 0,
+      "shield_modifier_pct": 0,
+      "hull_damage_per_tick": 0,
+      "crew_risk_pct": 0,
+      "deuterium_density": 1,
+      "visibility_modifier": 0.7,
+      "hazards": [
+        "drenaje de energía principal"
+      ],
+      "allowed_orbital_structures": false
+    },
+    {
+      "sector_type_id": "NEB_RADIATION",
+      "name": "Nebulosa radiactiva",
+      "category": "nebula",
+      "colonizable": false,
+      "flight_cost_multiplier": 2.0,
+      "evasion_modifier_pct": 0,
+      "shield_modifier_pct": 0,
+      "hull_damage_per_tick": 0,
+      "crew_risk_pct": 5,
+      "deuterium_density": 1,
+      "visibility_modifier": 0.75,
+      "hazards": [
+        "riesgo para tripulación"
+      ],
+      "allowed_orbital_structures": false
+    },
+    {
+      "sector_type_id": "SUBSPACE_RIFT",
+      "name": "Fisura subespacial",
+      "category": "anomaly",
+      "colonizable": false,
+      "flight_cost_multiplier": 99.0,
+      "evasion_modifier_pct": 0,
+      "shield_modifier_pct": 0,
+      "hull_damage_per_tick": 99999,
+      "crew_risk_pct": 100,
+      "deuterium_density": 0,
+      "visibility_modifier": 1.0,
+      "hazards": [
+        "destrucción de nave"
+      ],
+      "allowed_orbital_structures": false
+    },
+    {
+      "sector_type_id": "QUANTUM_SINGULARITY",
+      "name": "Singularidad cuántica",
+      "category": "anomaly",
+      "colonizable": false,
+      "flight_cost_multiplier": 10.0,
+      "evasion_modifier_pct": 0,
+      "shield_modifier_pct": -50,
+      "hull_damage_per_tick": 100,
+      "crew_risk_pct": 20,
+      "deuterium_density": 0,
+      "visibility_modifier": 0.5,
+      "hazards": [
+        "daño severo de casco"
+      ],
+      "allowed_orbital_structures": false
+    },
+    {
+      "sector_type_id": "ASTEROID_SMALL",
+      "name": "Campo de asteroides pequeño",
+      "category": "asteroid",
+      "colonizable": true,
+      "flight_cost_multiplier": 2.0,
+      "evasion_modifier_pct": 10,
+      "shield_modifier_pct": 0,
+      "hull_damage_per_tick": 0,
+      "crew_risk_pct": 0,
+      "deuterium_density": 1,
+      "visibility_modifier": 0.9,
+      "hazards": [
+        "riesgo de colisión"
+      ],
+      "allowed_orbital_structures": true
+    },
+    {
+      "sector_type_id": "ASTEROID_LARGE",
+      "name": "Campo de asteroides grande",
+      "category": "asteroid",
+      "colonizable": true,
+      "flight_cost_multiplier": 3.0,
+      "evasion_modifier_pct": 15,
+      "shield_modifier_pct": 0,
+      "hull_damage_per_tick": 0,
+      "crew_risk_pct": 0,
+      "deuterium_density": 1,
+      "visibility_modifier": 0.8,
+      "hazards": [
+        "riesgo de colisión alto"
+      ],
+      "allowed_orbital_structures": true
+    },
+    {
+      "sector_type_id": "PLANET_M",
+      "name": "Planeta estándar M",
+      "category": "planet",
+      "colonizable": true,
+      "flight_cost_multiplier": 1.0,
+      "evasion_modifier_pct": 0,
+      "shield_modifier_pct": 0,
+      "hull_damage_per_tick": 0,
+      "crew_risk_pct": 0,
+      "deuterium_density": 1,
+      "visibility_modifier": 1.0,
+      "hazards": [],
+      "allowed_orbital_structures": true
+    },
+    {
+      "sector_type_id": "PLANET_DESERT",
+      "name": "Planeta desértico",
+      "category": "planet",
+      "colonizable": true,
+      "flight_cost_multiplier": 1.0,
+      "evasion_modifier_pct": 0,
+      "shield_modifier_pct": 0,
+      "hull_damage_per_tick": 0,
+      "crew_risk_pct": 0,
+      "deuterium_density": 3,
+      "visibility_modifier": 1.0,
+      "hazards": [],
+      "allowed_orbital_structures": true
+    },
+    {
+      "sector_type_id": "PLANET_ICE",
+      "name": "Planeta de hielo",
+      "category": "planet",
+      "colonizable": true,
+      "flight_cost_multiplier": 1.0,
+      "evasion_modifier_pct": 0,
+      "shield_modifier_pct": 0,
+      "hull_damage_per_tick": 0,
+      "crew_risk_pct": 0,
+      "deuterium_density": 2,
+      "visibility_modifier": 1.0,
+      "hazards": [],
+      "allowed_orbital_structures": true
+    },
+    {
+      "sector_type_id": "PLANET_WATER",
+      "name": "Planeta de agua",
+      "category": "planet",
+      "colonizable": true,
+      "flight_cost_multiplier": 1.0,
+      "evasion_modifier_pct": 0,
+      "shield_modifier_pct": 0,
+      "hull_damage_per_tick": 0,
+      "crew_risk_pct": 0,
+      "deuterium_density": 1,
+      "visibility_modifier": 1.0,
+      "hazards": [],
+      "allowed_orbital_structures": true
+    },
+    {
+      "sector_type_id": "PLANET_ROCK",
+      "name": "Planeta rocoso",
+      "category": "planet",
+      "colonizable": true,
+      "flight_cost_multiplier": 1.5,
+      "evasion_modifier_pct": 0,
+      "shield_modifier_pct": 0,
+      "hull_damage_per_tick": 0,
+      "crew_risk_pct": 0,
+      "deuterium_density": 0,
+      "visibility_modifier": 1.0,
+      "hazards": [],
+      "allowed_orbital_structures": true
+    },
+    {
+      "sector_type_id": "PLANET_LAVA",
+      "name": "Planeta de lava",
+      "category": "planet",
+      "colonizable": true,
+      "flight_cost_multiplier": 1.5,
+      "evasion_modifier_pct": 0,
+      "shield_modifier_pct": 0,
+      "hull_damage_per_tick": 0,
+      "crew_risk_pct": 0,
+      "deuterium_density": 0,
+      "visibility_modifier": 1.0,
+      "hazards": [],
+      "allowed_orbital_structures": true
+    },
+    {
+      "sector_type_id": "DYSON",
+      "name": "Esfera Dyson",
+      "category": "planet",
+      "colonizable": true,
+      "flight_cost_multiplier": 1.0,
+      "evasion_modifier_pct": 0,
+      "shield_modifier_pct": 10,
+      "hull_damage_per_tick": 0,
+      "crew_risk_pct": 0,
+      "deuterium_density": 0,
+      "visibility_modifier": 1.0,
+      "hazards": [],
+      "allowed_orbital_structures": true
+    }
+  ]
+}
