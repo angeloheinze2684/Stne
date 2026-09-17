@@ -1,0 +1,44 @@
+{
+  "version": "2.0",
+  "sector": {
+    "primary_key": "sector_id = map_id:x:y",
+    "fields": {
+      "sector_id": "string",
+      "map_id": "integer",
+      "x": "integer",
+      "y": "integer",
+      "region_id": "integer|null",
+      "sector_type_id": "string",
+      "colonizable": "boolean",
+      "celestial_body_id": "string|null",
+      "ship_ids": "array[string]",
+      "signature_count": "number",
+      "current_flight_cost": "number",
+      "last_updated_tick": "integer"
+    }
+  },
+  "sector_type": {
+    "fields": {
+      "sector_type_id": "string",
+      "name": "string",
+      "category": "string",
+      "sprite": "relative path",
+      "colonizable": "boolean",
+      "flight_cost_multiplier": "number",
+      "entry_effects": "array[string]",
+      "round_effects": "array[string]",
+      "hazards": "array[string]",
+      "deuterium_density": "number",
+      "confidence": "alta|media|pendiente"
+    }
+  },
+  "rendering": {
+    "rule": "La cuadrícula la dibuja CSS. El sprite es una imagen interior SIN bordes de tabla.",
+    "cell_layers": [
+      "sprite",
+      "firmas",
+      "selección"
+    ],
+    "coordinates": "Solo en los ejes X/Y; nunca dentro de la casilla."
+  }
+}
