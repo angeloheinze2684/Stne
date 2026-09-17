@@ -1,0 +1,2515 @@
+{
+  "version": "1.0",
+  "total": 100,
+  "items": [
+    {
+      "id": "MISC-001",
+      "nombre": "Amplificador temporal de rango de vuelo",
+      "categoria": "vuelo",
+      "rareza": "muy raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 18
+      },
+      "duracion_horas": 24,
+      "enfriamiento_horas": 12,
+      "efectos": {
+        "rango_vuelo_pct": 40
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Puede instalarse únicamente en naves de 5 a 18 slots. Aumenta el rango de vuelo un 40% durante 24 horas. Al finalizar, entra en enfriamiento durante 12 horas."
+    },
+    {
+      "id": "MISC-002",
+      "nombre": "Estabilizador de salto prolongado",
+      "categoria": "vuelo",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 20
+      },
+      "duracion_horas": 36,
+      "enfriamiento_horas": 24,
+      "efectos": {
+        "rango_vuelo_pct": 44,
+        "coste_vuelo_pct": -4
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 36 h. Después entra en enfriamiento durante 24 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-003",
+      "nombre": "Compensador de consumo de vuelo",
+      "categoria": "vuelo",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 12
+      },
+      "duracion_horas": 6,
+      "enfriamiento_horas": 8,
+      "efectos": {
+        "rango_vuelo_pct": 39,
+        "coste_vuelo_pct": -10
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 6 h. Después entra en enfriamiento durante 8 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-004",
+      "nombre": "Matriz de impulso extendido",
+      "categoria": "vuelo",
+      "rareza": "raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 18
+      },
+      "duracion_horas": 6,
+      "enfriamiento_horas": 12,
+      "efectos": {
+        "rango_vuelo_pct": 44,
+        "coste_vuelo_pct": -6
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 6 h. Después entra en enfriamiento durante 12 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-005",
+      "nombre": "Núcleo auxiliar de navegación",
+      "categoria": "vuelo",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 40
+      },
+      "duracion_horas": 12,
+      "enfriamiento_horas": 24,
+      "efectos": {
+        "rango_vuelo_pct": 41,
+        "coste_vuelo_pct": -10
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 12 h. Después entra en enfriamiento durante 24 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-006",
+      "nombre": "Acelerador de crucero sectorial",
+      "categoria": "vuelo",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 12
+      },
+      "duracion_horas": 12,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "rango_vuelo_pct": 24,
+        "coste_vuelo_pct": -9
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 12 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-007",
+      "nombre": "Modulador de eficiencia warp",
+      "categoria": "vuelo",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 12
+      },
+      "duracion_horas": 6,
+      "enfriamiento_horas": 12,
+      "efectos": {
+        "rango_vuelo_pct": 20,
+        "coste_vuelo_pct": -6
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 6 h. Después entra en enfriamiento durante 12 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-008",
+      "nombre": "Reserva de empuje táctico",
+      "categoria": "vuelo",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 24
+      },
+      "duracion_horas": 8,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "rango_vuelo_pct": 45,
+        "coste_vuelo_pct": -8
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 8 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-009",
+      "nombre": "Optimizador de rutas subespaciales",
+      "categoria": "vuelo",
+      "rareza": "raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 15
+      },
+      "duracion_horas": 12,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "rango_vuelo_pct": 44,
+        "coste_vuelo_pct": -5
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 12 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-010",
+      "nombre": "Proyector de corredor de vuelo",
+      "categoria": "vuelo",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 3,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 24
+      },
+      "duracion_horas": 36,
+      "enfriamiento_horas": 4,
+      "efectos": {
+        "rango_vuelo_pct": 35,
+        "coste_vuelo_pct": -8
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 36 h. Después entra en enfriamiento durante 4 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-011",
+      "nombre": "Sobrecarga EPS controlada",
+      "categoria": "energía",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 12
+      },
+      "duracion_horas": 6,
+      "enfriamiento_horas": 24,
+      "efectos": {
+        "eps_pct": 29,
+        "energia_principal_pct": 21
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 6 h. Después entra en enfriamiento durante 24 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-012",
+      "nombre": "Reserva energética de emergencia",
+      "categoria": "energía",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 18
+      },
+      "duracion_horas": 36,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "eps_pct": 22,
+        "energia_principal_pct": 20
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 36 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-013",
+      "nombre": "Catalizador de reactor",
+      "categoria": "energía",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 12
+      },
+      "duracion_horas": 6,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "eps_pct": 29,
+        "energia_principal_pct": 18
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 6 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-014",
+      "nombre": "Banco de energía temporal",
+      "categoria": "energía",
+      "rareza": "raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 40
+      },
+      "duracion_horas": 12,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "eps_pct": 19,
+        "energia_principal_pct": 21
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 12 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-015",
+      "nombre": "Regulador de núcleo en sobrecarga",
+      "categoria": "energía",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 15
+      },
+      "duracion_horas": 12,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "eps_pct": 26,
+        "energia_principal_pct": 15
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 12 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-016",
+      "nombre": "Inyector de plasma enriquecido",
+      "categoria": "energía",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 40
+      },
+      "duracion_horas": 8,
+      "enfriamiento_horas": 8,
+      "efectos": {
+        "eps_pct": 15,
+        "energia_principal_pct": 15
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 8 h. Después entra en enfriamiento durante 8 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-017",
+      "nombre": "Compresor temporal de energía",
+      "categoria": "energía",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 15
+      },
+      "duracion_horas": 6,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "eps_pct": 28,
+        "energia_principal_pct": 23
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 6 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-018",
+      "nombre": "Matriz de recuperación rápida",
+      "categoria": "energía",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 24
+      },
+      "duracion_horas": 6,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "eps_pct": 28,
+        "energia_principal_pct": 12
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 6 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-019",
+      "nombre": "Estabilizador de picos energéticos",
+      "categoria": "energía",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 15
+      },
+      "duracion_horas": 24,
+      "enfriamiento_horas": 12,
+      "efectos": {
+        "eps_pct": 13,
+        "energia_principal_pct": 22
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 24 h. Después entra en enfriamiento durante 12 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-020",
+      "nombre": "Conversor auxiliar de potencia",
+      "categoria": "energía",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 12
+      },
+      "duracion_horas": 36,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "eps_pct": 26,
+        "energia_principal_pct": 20
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 36 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-021",
+      "nombre": "Sobrecarga temporal de escudos",
+      "categoria": "escudos",
+      "rareza": "muy raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 24
+      },
+      "duracion_horas": 36,
+      "enfriamiento_horas": 24,
+      "efectos": {
+        "escudos_pct": 27,
+        "regeneracion_escudos_pct": 20
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 36 h. Después entra en enfriamiento durante 24 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-022",
+      "nombre": "Matriz de regeneración acelerada",
+      "categoria": "escudos",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 15
+      },
+      "duracion_horas": 12,
+      "enfriamiento_horas": 12,
+      "efectos": {
+        "escudos_pct": 31,
+        "regeneracion_escudos_pct": 25
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 12 h. Después entra en enfriamiento durante 12 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-023",
+      "nombre": "Proyector de escudo reforzado",
+      "categoria": "escudos",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 40
+      },
+      "duracion_horas": 36,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "escudos_pct": 29,
+        "regeneracion_escudos_pct": 13
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 36 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-024",
+      "nombre": "Armonizador defensivo de emergencia",
+      "categoria": "escudos",
+      "rareza": "muy raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 24
+      },
+      "duracion_horas": 18,
+      "enfriamiento_horas": 24,
+      "efectos": {
+        "escudos_pct": 23,
+        "regeneracion_escudos_pct": 12
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 18 h. Después entra en enfriamiento durante 24 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-025",
+      "nombre": "Reserva de escudo táctico",
+      "categoria": "escudos",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 3,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 12
+      },
+      "duracion_horas": 8,
+      "enfriamiento_horas": 24,
+      "efectos": {
+        "escudos_pct": 28,
+        "regeneracion_escudos_pct": 21
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 8 h. Después entra en enfriamiento durante 24 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-026",
+      "nombre": "Compensador de impacto transitorio",
+      "categoria": "escudos",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 12
+      },
+      "duracion_horas": 24,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "escudos_pct": 16,
+        "regeneracion_escudos_pct": 20
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 24 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-027",
+      "nombre": "Modulador de frecuencia defensiva",
+      "categoria": "escudos",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 18
+      },
+      "duracion_horas": 24,
+      "enfriamiento_horas": 24,
+      "efectos": {
+        "escudos_pct": 21,
+        "regeneracion_escudos_pct": 11
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 24 h. Después entra en enfriamiento durante 24 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-028",
+      "nombre": "Burbuja de protección auxiliar",
+      "categoria": "escudos",
+      "rareza": "muy raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 24
+      },
+      "duracion_horas": 12,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "escudos_pct": 22,
+        "regeneracion_escudos_pct": 18
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 12 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-029",
+      "nombre": "Reforzador de polaridad temporal",
+      "categoria": "escudos",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 15
+      },
+      "duracion_horas": 12,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "escudos_pct": 31,
+        "regeneracion_escudos_pct": 12
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 12 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-030",
+      "nombre": "Banco de escudos de reserva",
+      "categoria": "escudos",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 40
+      },
+      "duracion_horas": 18,
+      "enfriamiento_horas": 12,
+      "efectos": {
+        "escudos_pct": 35,
+        "regeneracion_escudos_pct": 23
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 18 h. Después entra en enfriamiento durante 12 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-031",
+      "nombre": "Amplificador temporal de potencia de fuego",
+      "categoria": "armamento",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 20
+      },
+      "duracion_horas": 36,
+      "enfriamiento_horas": 12,
+      "efectos": {
+        "dps_pct": 30,
+        "precision_pct": 5,
+        "calentamiento_armas_pct": -6
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 36 h. Después entra en enfriamiento durante 12 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-032",
+      "nombre": "Controlador de ráfaga intensiva",
+      "categoria": "armamento",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 24
+      },
+      "duracion_horas": 18,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "dps_pct": 25,
+        "precision_pct": 6,
+        "calentamiento_armas_pct": -9
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 18 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-033",
+      "nombre": "Computador de tiro de emergencia",
+      "categoria": "armamento",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 24
+      },
+      "duracion_horas": 24,
+      "enfriamiento_horas": 12,
+      "efectos": {
+        "dps_pct": 15,
+        "precision_pct": 7,
+        "calentamiento_armas_pct": -6
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 24 h. Después entra en enfriamiento durante 12 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-034",
+      "nombre": "Refrigeración ofensiva acelerada",
+      "categoria": "armamento",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 40
+      },
+      "duracion_horas": 12,
+      "enfriamiento_horas": 8,
+      "efectos": {
+        "dps_pct": 24,
+        "precision_pct": 4,
+        "calentamiento_armas_pct": -3
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 12 h. Después entra en enfriamiento durante 8 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-035",
+      "nombre": "Matriz de precisión táctica",
+      "categoria": "armamento",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 18
+      },
+      "duracion_horas": 8,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "dps_pct": 19,
+        "precision_pct": 3,
+        "calentamiento_armas_pct": -8
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 8 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-036",
+      "nombre": "Sincronizador de armas de asalto",
+      "categoria": "armamento",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 3,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 20
+      },
+      "duracion_horas": 12,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "dps_pct": 16,
+        "precision_pct": 4,
+        "calentamiento_armas_pct": -9
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 12 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-037",
+      "nombre": "Regulador de sobrecarga ofensiva",
+      "categoria": "armamento",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 18
+      },
+      "duracion_horas": 6,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "dps_pct": 25,
+        "precision_pct": 6,
+        "calentamiento_armas_pct": -8
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 6 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-038",
+      "nombre": "Paquete de fuego concentrado",
+      "categoria": "armamento",
+      "rareza": "muy raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 3,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 40
+      },
+      "duracion_horas": 18,
+      "enfriamiento_horas": 12,
+      "efectos": {
+        "dps_pct": 22,
+        "precision_pct": 7,
+        "calentamiento_armas_pct": -10
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 18 h. Después entra en enfriamiento durante 12 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-039",
+      "nombre": "Alineador de armas pesadas",
+      "categoria": "armamento",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 24
+      },
+      "duracion_horas": 6,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "dps_pct": 18,
+        "precision_pct": 6,
+        "calentamiento_armas_pct": -9
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 6 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-040",
+      "nombre": "Módulo de cadencia intensiva",
+      "categoria": "armamento",
+      "rareza": "muy raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 24
+      },
+      "duracion_horas": 18,
+      "enfriamiento_horas": 8,
+      "efectos": {
+        "dps_pct": 12,
+        "precision_pct": 3,
+        "calentamiento_armas_pct": -5
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 18 h. Después entra en enfriamiento durante 8 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-041",
+      "nombre": "Nanorreparación intensiva de casco",
+      "categoria": "casco",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 3,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 18
+      },
+      "duracion_horas": 18,
+      "enfriamiento_horas": 4,
+      "efectos": {
+        "casco_pct": 21,
+        "resistencia_dano_pct": 8
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 18 h. Después entra en enfriamiento durante 4 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-042",
+      "nombre": "Refuerzo estructural temporal",
+      "categoria": "casco",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 20
+      },
+      "duracion_horas": 8,
+      "enfriamiento_horas": 12,
+      "efectos": {
+        "casco_pct": 18,
+        "resistencia_dano_pct": 7
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 8 h. Después entra en enfriamiento durante 12 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-043",
+      "nombre": "Malla de blindaje reactiva",
+      "categoria": "casco",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 40
+      },
+      "duracion_horas": 8,
+      "enfriamiento_horas": 12,
+      "efectos": {
+        "casco_pct": 18,
+        "resistencia_dano_pct": 12
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 8 h. Después entra en enfriamiento durante 12 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-044",
+      "nombre": "Compuesto de sellado acelerado",
+      "categoria": "casco",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 3,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 18
+      },
+      "duracion_horas": 18,
+      "enfriamiento_horas": 24,
+      "efectos": {
+        "casco_pct": 13,
+        "resistencia_dano_pct": 10
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 18 h. Después entra en enfriamiento durante 24 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-045",
+      "nombre": "Proyector de integridad estructural",
+      "categoria": "casco",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 40
+      },
+      "duracion_horas": 8,
+      "enfriamiento_horas": 4,
+      "efectos": {
+        "casco_pct": 26,
+        "resistencia_dano_pct": 7
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 8 h. Después entra en enfriamiento durante 4 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-046",
+      "nombre": "Reserva de placas de emergencia",
+      "categoria": "casco",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 3,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 18
+      },
+      "duracion_horas": 18,
+      "enfriamiento_horas": 8,
+      "efectos": {
+        "casco_pct": 24,
+        "resistencia_dano_pct": 9
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 18 h. Después entra en enfriamiento durante 8 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-047",
+      "nombre": "Módulo de absorción cinética",
+      "categoria": "casco",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 15
+      },
+      "duracion_horas": 18,
+      "enfriamiento_horas": 24,
+      "efectos": {
+        "casco_pct": 21,
+        "resistencia_dano_pct": 10
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 18 h. Después entra en enfriamiento durante 24 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-048",
+      "nombre": "Refuerzo de mamparos temporales",
+      "categoria": "casco",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 40
+      },
+      "duracion_horas": 6,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "casco_pct": 15,
+        "resistencia_dano_pct": 10
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 6 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-049",
+      "nombre": "Estabilizador de casco de combate",
+      "categoria": "casco",
+      "rareza": "raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 3,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 12
+      },
+      "duracion_horas": 6,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "casco_pct": 13,
+        "resistencia_dano_pct": 11
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 6 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-050",
+      "nombre": "Matriz de contención estructural",
+      "categoria": "casco",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 15
+      },
+      "duracion_horas": 6,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "casco_pct": 24,
+        "resistencia_dano_pct": 11
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 6 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-051",
+      "nombre": "Amplificador LRS temporal",
+      "categoria": "sensores",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 15
+      },
+      "duracion_horas": 18,
+      "enfriamiento_horas": 4,
+      "efectos": {
+        "lrs_bonus": 1,
+        "precision_pct": 4
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 18 h. Después entra en enfriamiento durante 4 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-052",
+      "nombre": "Matriz de rastreo profundo",
+      "categoria": "sensores",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 24
+      },
+      "duracion_horas": 6,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "lrs_bonus": 1,
+        "precision_pct": 9
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 6 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-053",
+      "nombre": "Filtro de firmas mejorado",
+      "categoria": "sensores",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 20
+      },
+      "duracion_horas": 12,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "lrs_bonus": 2,
+        "precision_pct": 6
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 12 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-054",
+      "nombre": "Módulo de detección subespacial",
+      "categoria": "sensores",
+      "rareza": "muy raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 15
+      },
+      "duracion_horas": 36,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "lrs_bonus": 1,
+        "precision_pct": 4
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 36 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-055",
+      "nombre": "Analizador táctico extendido",
+      "categoria": "sensores",
+      "rareza": "raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 3,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 12
+      },
+      "duracion_horas": 18,
+      "enfriamiento_horas": 24,
+      "efectos": {
+        "lrs_bonus": 2,
+        "precision_pct": 10
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 18 h. Después entra en enfriamiento durante 24 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-056",
+      "nombre": "Paquete de sensores de combate",
+      "categoria": "sensores",
+      "rareza": "raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 24
+      },
+      "duracion_horas": 36,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "lrs_bonus": 1,
+        "precision_pct": 4
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 36 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-057",
+      "nombre": "Compensador de interferencia temporal",
+      "categoria": "sensores",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 15
+      },
+      "duracion_horas": 8,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "lrs_bonus": 2,
+        "precision_pct": 7
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 8 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-058",
+      "nombre": "Matriz de telemetría avanzada",
+      "categoria": "sensores",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 3,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 20
+      },
+      "duracion_horas": 12,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "lrs_bonus": 2,
+        "precision_pct": 7
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 12 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-059",
+      "nombre": "Escáner gravimétrico intensivo",
+      "categoria": "sensores",
+      "rareza": "muy raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 18
+      },
+      "duracion_horas": 36,
+      "enfriamiento_horas": 12,
+      "efectos": {
+        "lrs_bonus": 1,
+        "precision_pct": 7
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 36 h. Después entra en enfriamiento durante 12 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-060",
+      "nombre": "Módulo de precisión sensorial",
+      "categoria": "sensores",
+      "rareza": "raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 24
+      },
+      "duracion_horas": 18,
+      "enfriamiento_horas": 12,
+      "efectos": {
+        "lrs_bonus": 1,
+        "precision_pct": 4
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 18 h. Después entra en enfriamiento durante 12 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-061",
+      "nombre": "Reductor temporal de firma",
+      "categoria": "sigilo",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 20
+      },
+      "duracion_horas": 8,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "firma_sensor_pct": -15,
+        "evasion_puntos": 7
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 8 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-062",
+      "nombre": "Disipador de emisiones activado",
+      "categoria": "sigilo",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 12
+      },
+      "duracion_horas": 24,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "firma_sensor_pct": -16,
+        "evasion_puntos": 8
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 24 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-063",
+      "nombre": "Matriz de silencio táctico",
+      "categoria": "sigilo",
+      "rareza": "raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 20
+      },
+      "duracion_horas": 12,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "firma_sensor_pct": -14,
+        "evasion_puntos": 5
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 12 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-064",
+      "nombre": "Generador de eco falso",
+      "categoria": "sigilo",
+      "rareza": "raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 40
+      },
+      "duracion_horas": 6,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "firma_sensor_pct": -19,
+        "evasion_puntos": 3
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 6 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-065",
+      "nombre": "Atenuador de firma warp",
+      "categoria": "sigilo",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 18
+      },
+      "duracion_horas": 8,
+      "enfriamiento_horas": 24,
+      "efectos": {
+        "firma_sensor_pct": -23,
+        "evasion_puntos": 5
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 8 h. Después entra en enfriamiento durante 24 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-066",
+      "nombre": "Modulador de emisiones pasivas",
+      "categoria": "sigilo",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 20
+      },
+      "duracion_horas": 8,
+      "enfriamiento_horas": 24,
+      "efectos": {
+        "firma_sensor_pct": -30,
+        "evasion_puntos": 8
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 8 h. Después entra en enfriamiento durante 24 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-067",
+      "nombre": "Módulo de enmascaramiento corto",
+      "categoria": "sigilo",
+      "rareza": "muy raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 12
+      },
+      "duracion_horas": 36,
+      "enfriamiento_horas": 8,
+      "efectos": {
+        "firma_sensor_pct": -15,
+        "evasion_puntos": 5
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 36 h. Después entra en enfriamiento durante 8 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-068",
+      "nombre": "Compensador térmico encubierto",
+      "categoria": "sigilo",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 15
+      },
+      "duracion_horas": 8,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "firma_sensor_pct": -23,
+        "evasion_puntos": 7
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 8 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-069",
+      "nombre": "Filtro de reactor silencioso",
+      "categoria": "sigilo",
+      "rareza": "raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 24
+      },
+      "duracion_horas": 18,
+      "enfriamiento_horas": 8,
+      "efectos": {
+        "firma_sensor_pct": -24,
+        "evasion_puntos": 3
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 18 h. Después entra en enfriamiento durante 8 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-070",
+      "nombre": "Paquete de navegación furtiva",
+      "categoria": "sigilo",
+      "rareza": "raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 40
+      },
+      "duracion_horas": 8,
+      "enfriamiento_horas": 8,
+      "efectos": {
+        "firma_sensor_pct": -25,
+        "evasion_puntos": 7
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 8 h. Después entra en enfriamiento durante 8 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-071",
+      "nombre": "Expansor temporal de bodega",
+      "categoria": "carga",
+      "rareza": "muy raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 3,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 12
+      },
+      "duracion_horas": 36,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "almacenamiento_bonus": 500
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 36 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-072",
+      "nombre": "Compresor logístico activado",
+      "categoria": "carga",
+      "rareza": "raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 15
+      },
+      "duracion_horas": 24,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "almacenamiento_bonus": 350
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 24 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-073",
+      "nombre": "Matriz de almacenamiento plegable",
+      "categoria": "carga",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 20
+      },
+      "duracion_horas": 18,
+      "enfriamiento_horas": 4,
+      "efectos": {
+        "almacenamiento_bonus": 800
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 18 h. Después entra en enfriamiento durante 4 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-074",
+      "nombre": "Contenedores de compresión temporal",
+      "categoria": "carga",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 15
+      },
+      "duracion_horas": 36,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "almacenamiento_bonus": 800
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 36 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-075",
+      "nombre": "Red de carga reforzada",
+      "categoria": "carga",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 20
+      },
+      "duracion_horas": 24,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "almacenamiento_bonus": 500
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 24 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-076",
+      "nombre": "Bodega auxiliar desplegable",
+      "categoria": "carga",
+      "rareza": "muy raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 18
+      },
+      "duracion_horas": 12,
+      "enfriamiento_horas": 24,
+      "efectos": {
+        "almacenamiento_bonus": 650
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 12 h. Después entra en enfriamiento durante 24 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-077",
+      "nombre": "Sistema de apilado de emergencia",
+      "categoria": "carga",
+      "rareza": "raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 3,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 20
+      },
+      "duracion_horas": 36,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "almacenamiento_bonus": 800
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 36 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-078",
+      "nombre": "Compartimentos de alta densidad",
+      "categoria": "carga",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 18
+      },
+      "duracion_horas": 24,
+      "enfriamiento_horas": 8,
+      "efectos": {
+        "almacenamiento_bonus": 250
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 24 h. Después entra en enfriamiento durante 8 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-079",
+      "nombre": "Módulo de carga extendida",
+      "categoria": "carga",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 3,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 40
+      },
+      "duracion_horas": 6,
+      "enfriamiento_horas": 8,
+      "efectos": {
+        "almacenamiento_bonus": 800
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 6 h. Después entra en enfriamiento durante 8 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-080",
+      "nombre": "Expansor Ferengi de mercancías",
+      "categoria": "carga",
+      "rareza": "muy raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 40
+      },
+      "duracion_horas": 12,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "almacenamiento_bonus": 250
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 12 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-081",
+      "nombre": "Acelerador de recarga de torpedos",
+      "categoria": "torpedos",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 20
+      },
+      "duracion_horas": 36,
+      "enfriamiento_horas": 8,
+      "efectos": {
+        "precision_torpedos_pct": 9,
+        "recarga_torpedos_pct": 13
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 36 h. Después entra en enfriamiento durante 8 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-082",
+      "nombre": "Matriz de guía temporal",
+      "categoria": "torpedos",
+      "rareza": "muy raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 15
+      },
+      "duracion_horas": 8,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "precision_torpedos_pct": 8,
+        "recarga_torpedos_pct": 11
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 8 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-083",
+      "nombre": "Controlador de precisión de torpedos",
+      "categoria": "torpedos",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 20
+      },
+      "duracion_horas": 24,
+      "enfriamiento_horas": 12,
+      "efectos": {
+        "precision_torpedos_pct": 6,
+        "recarga_torpedos_pct": 15
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 24 h. Después entra en enfriamiento durante 12 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-084",
+      "nombre": "Enfriador intensivo de tubos",
+      "categoria": "torpedos",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 24
+      },
+      "duracion_horas": 18,
+      "enfriamiento_horas": 24,
+      "efectos": {
+        "precision_torpedos_pct": 10,
+        "recarga_torpedos_pct": 19
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 18 h. Después entra en enfriamiento durante 24 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-085",
+      "nombre": "Secuenciador de lanzamiento rápido",
+      "categoria": "torpedos",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 3,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 12
+      },
+      "duracion_horas": 18,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "precision_torpedos_pct": 9,
+        "recarga_torpedos_pct": 11
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 18 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-086",
+      "nombre": "Paquete de telemetría de ojivas",
+      "categoria": "torpedos",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 12
+      },
+      "duracion_horas": 12,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "precision_torpedos_pct": 10,
+        "recarga_torpedos_pct": 11
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 12 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-087",
+      "nombre": "Compensador de dispersión táctica",
+      "categoria": "torpedos",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 18
+      },
+      "duracion_horas": 24,
+      "enfriamiento_horas": 12,
+      "efectos": {
+        "precision_torpedos_pct": 8,
+        "recarga_torpedos_pct": 12
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 24 h. Después entra en enfriamiento durante 12 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-088",
+      "nombre": "Módulo de recarga acelerada",
+      "categoria": "torpedos",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 24
+      },
+      "duracion_horas": 8,
+      "enfriamiento_horas": 24,
+      "efectos": {
+        "precision_torpedos_pct": 6,
+        "recarga_torpedos_pct": 13
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 8 h. Después entra en enfriamiento durante 24 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-089",
+      "nombre": "Amplificador de impacto de torpedos",
+      "categoria": "torpedos",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 3,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 12
+      },
+      "duracion_horas": 6,
+      "enfriamiento_horas": 8,
+      "efectos": {
+        "precision_torpedos_pct": 6,
+        "recarga_torpedos_pct": 12
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 6 h. Después entra en enfriamiento durante 8 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-090",
+      "nombre": "Selector de espoleta avanzado",
+      "categoria": "torpedos",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 40
+      },
+      "duracion_horas": 8,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "precision_torpedos_pct": 12,
+        "recarga_torpedos_pct": 12
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 8 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-091",
+      "nombre": "Nodo táctico de mando temporal",
+      "categoria": "especial",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 12
+      },
+      "duracion_horas": 36,
+      "enfriamiento_horas": 24,
+      "efectos": {
+        "dps_pct": 15,
+        "escudos_pct": 11,
+        "precision_pct": 4
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 36 h. Después entra en enfriamiento durante 24 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-092",
+      "nombre": "Enlace de coordinación de escoltas",
+      "categoria": "especial",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 12
+      },
+      "duracion_horas": 24,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "dps_pct": 9,
+        "escudos_pct": 10,
+        "precision_pct": 3
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 24 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-093",
+      "nombre": "Matriz de interdicción temporal",
+      "categoria": "especial",
+      "rareza": "raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 12
+      },
+      "duracion_horas": 18,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "dps_pct": 7,
+        "escudos_pct": 9,
+        "precision_pct": 2
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 18 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-094",
+      "nombre": "Proyector de campo de combate",
+      "categoria": "especial",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 40
+      },
+      "duracion_horas": 12,
+      "enfriamiento_horas": 8,
+      "efectos": {
+        "dps_pct": 15,
+        "escudos_pct": 15,
+        "precision_pct": 2
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 12 h. Después entra en enfriamiento durante 8 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-095",
+      "nombre": "Banco de cálculo de almirante",
+      "categoria": "especial",
+      "rareza": "raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 3,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 20
+      },
+      "duracion_horas": 8,
+      "enfriamiento_horas": 6,
+      "efectos": {
+        "dps_pct": 13,
+        "escudos_pct": 7,
+        "precision_pct": 2
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 8 h. Después entra en enfriamiento durante 6 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-096",
+      "nombre": "Módulo de defensa de flota",
+      "categoria": "especial",
+      "rareza": "muy raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 40
+      },
+      "duracion_horas": 36,
+      "enfriamiento_horas": 24,
+      "efectos": {
+        "dps_pct": 7,
+        "escudos_pct": 15,
+        "precision_pct": 6
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 36 h. Después entra en enfriamiento durante 24 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-097",
+      "nombre": "Amplificador de control de daños",
+      "categoria": "especial",
+      "rareza": "mejorado",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 20
+      },
+      "duracion_horas": 24,
+      "enfriamiento_horas": 8,
+      "efectos": {
+        "dps_pct": 11,
+        "escudos_pct": 10,
+        "precision_pct": 5
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 24 h. Después entra en enfriamiento durante 8 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-098",
+      "nombre": "Matriz de respuesta rápida",
+      "categoria": "especial",
+      "rareza": "raro",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 20
+      },
+      "duracion_horas": 6,
+      "enfriamiento_horas": 24,
+      "efectos": {
+        "dps_pct": 8,
+        "escudos_pct": 15,
+        "precision_pct": 4
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 6 h. Después entra en enfriamiento durante 24 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-099",
+      "nombre": "Nodo de mando estratégico",
+      "categoria": "especial",
+      "rareza": "común",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 18
+      },
+      "duracion_horas": 8,
+      "enfriamiento_horas": 18,
+      "efectos": {
+        "dps_pct": 11,
+        "escudos_pct": 13,
+        "precision_pct": 2
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 8 h. Después entra en enfriamiento durante 18 h antes de poder reutilizarse."
+    },
+    {
+      "id": "MISC-100",
+      "nombre": "Computador de batalla temporal",
+      "categoria": "especial",
+      "rareza": "élite",
+      "tipo": "misceláneo reutilizable",
+      "reutilizable": true,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 6,
+        "slots_maximos": 15
+      },
+      "duracion_horas": 36,
+      "enfriamiento_horas": 24,
+      "efectos": {
+        "dps_pct": 14,
+        "escudos_pct": 9,
+        "precision_pct": 6
+      },
+      "estado_ciclo": [
+        "disponible",
+        "activo",
+        "en_enfriamiento"
+      ],
+      "descripcion": "Activa una mejora temporal durante 36 h. Después entra en enfriamiento durante 24 h antes de poder reutilizarse."
+    }
+  ]
+}

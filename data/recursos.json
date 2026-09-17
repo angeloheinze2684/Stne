@@ -1,0 +1,386 @@
+{
+  "version": "1.1",
+  "total": 22,
+  "warp_core_recharge_rules": {
+    "direct_deuterium": {
+      "recipe": {
+        "deuterio": 1
+      },
+      "warp_core_recharge": 0.5,
+      "efficiency_per_input_unit": 0.5,
+      "description": "Recarga básica: 1 Deuterio -> 0.5 de núcleo warp."
+    },
+    "advanced_mix": {
+      "recipe": {
+        "antimateria": 2,
+        "deuterio": 2,
+        "dilitio": 1
+      },
+      "warp_core_recharge": 50,
+      "total_input_units": 5,
+      "efficiency_per_input_unit": 10,
+      "description": "Recarga avanzada: 2 Antimateria + 2 Deuterio + 1 Dilitio -> 50 de núcleo warp."
+    }
+  },
+  "resources": [
+    {
+      "id": "RES-001",
+      "name": "Energía",
+      "type": "recurso operativo",
+      "tradable": false,
+      "main_uses": [
+        "Operar edificios",
+        "Acciones de naves",
+        "Sensores",
+        "Armas",
+        "Recolectores",
+        "Transportadores"
+      ],
+      "obtained_from": [
+        "Plantas de energía",
+        "Reactores",
+        "Paneles solares",
+        "Núcleo warp/reactor de nave"
+      ],
+      "notes": "No se almacena como mercancía normal en el mismo sentido que los bienes."
+    },
+    {
+      "id": "RES-002",
+      "name": "Alimentos",
+      "type": "recurso colonial",
+      "tradable": true,
+      "main_uses": [
+        "Mantener población",
+        "Terraformación específica",
+        "Comercio"
+      ],
+      "obtained_from": [
+        "Granjas",
+        "Hidroponía",
+        "Replicación industrial",
+        "Producción colonial"
+      ]
+    },
+    {
+      "id": "RES-003",
+      "name": "Plastiacero",
+      "type": "material básico",
+      "tradable": true,
+      "main_uses": [
+        "Construcción de edificios",
+        "Construcción de naves",
+        "Infraestructura"
+      ],
+      "obtained_from": [
+        "Producción colonial",
+        "Campamento base/naturaleza en fases iniciales",
+        "Replicación industrial"
+      ],
+      "notes": "Material básico de construcción."
+    },
+    {
+      "id": "RES-004",
+      "name": "Mineral de iridio",
+      "type": "materia prima",
+      "tradable": true,
+      "main_uses": [
+        "Materia prima para Duranio",
+        "Producción industrial",
+        "Investigación y mantenimiento de centros"
+      ],
+      "obtained_from": [
+        "Minas de iridio en planetas",
+        "Recolectores de mineral en campos de asteroides",
+        "Replicación industrial"
+      ],
+      "collection_notes": "Recolectores obtienen más en campos de asteroides grandes que pequeños."
+    },
+    {
+      "id": "RES-005",
+      "name": "Duranio",
+      "type": "material estructural",
+      "tradable": true,
+      "main_uses": [
+        "Construcción de la mayoría de edificios",
+        "Construcción de todas las naves",
+        "Torpedos fotónicos",
+        "Infraestructura orbital"
+      ],
+      "obtained_from": [
+        "Fábricas de Duranio usando Mineral de iridio"
+      ],
+      "notes": "Segundo material básico de construcción."
+    },
+    {
+      "id": "RES-006",
+      "name": "Deuterio",
+      "type": "combustible / materia prima",
+      "tradable": true,
+      "main_uses": [
+        "Combustible de naves",
+        "Recarga directa del núcleo warp",
+        "Componente de la mezcla avanzada de recarga warp",
+        "Reactores/edificios energéticos",
+        "Producción de Plasma",
+        "Investigación",
+        "Construcción"
+      ],
+      "obtained_from": [
+        "Nebulosa de deuterio dispersa",
+        "Nebulosa de deuterio densa",
+        "Recolectores Bussard",
+        "Instalaciones de hidrólisis",
+        "Planetas de hielo/agua"
+      ],
+      "warp_core_rule_wiki": "1 Deuterio -> 0.5 de núcleo warp; mezcla 2 Antimateria + 2 Deuterio + 1 Dilitio -> 50 de núcleo warp.",
+      "warp_recharge": {
+        "directa": {
+          "recipe": {
+            "deuterio": 1
+          },
+          "warp_core_recharge": 0.5,
+          "description": "1 unidad de Deuterio recarga 0.5 unidades del núcleo warp."
+        },
+        "mezcla_avanzada": {
+          "recipe": {
+            "antimateria": 2,
+            "deuterio": 2,
+            "dilitio": 1
+          },
+          "warp_core_recharge": 50,
+          "description": "2 Antimateria + 2 Deuterio + 1 Dilitio recargan 50 unidades del núcleo warp."
+        }
+      },
+      "notes": "Mecánica NEXUS/STNE preservada: el Deuterio puede usarse por sí solo para recargar el núcleo warp, o combinarse con Antimateria y Dilitio para una recarga mucho más eficiente."
+    },
+    {
+      "id": "RES-007",
+      "name": "Antimateria",
+      "type": "combustible avanzado / material",
+      "tradable": true,
+      "main_uses": [
+        "Componente de la mezcla avanzada de recarga warp",
+        "Construcción avanzada",
+        "Torpedos",
+        "Terraformación"
+      ],
+      "obtained_from": [
+        "Aceleradores de partículas / producción colonial avanzada"
+      ],
+      "notes": "Parte de la mezcla de alta eficiencia del núcleo warp.",
+      "warp_recharge_role": "2 unidades de Antimateria forman parte de la mezcla 2 AM + 2 Deuterio + 1 Dilitio = 50 de núcleo warp."
+    },
+    {
+      "id": "RES-008",
+      "name": "Chips isolineales",
+      "type": "tecnología / conocimiento",
+      "tradable": true,
+      "main_uses": [
+        "Investigación",
+        "Construcción de naves avanzadas",
+        "Estaciones, puertas y plataformas",
+        "Componentes tecnológicos"
+      ],
+      "obtained_from": [
+        "Centro de investigación",
+        "Centro de investigación avanzado",
+        "Estación Júpiter",
+        "Científicos"
+      ]
+    },
+    {
+      "id": "RES-009",
+      "name": "Dilitio",
+      "type": "recurso estratégico",
+      "tradable": true,
+      "main_uses": [
+        "Componente catalizador de la mezcla avanzada de recarga warp",
+        "Construcción avanzada",
+        "Torpedos Polaron",
+        "Tecnologías especiales"
+      ],
+      "obtained_from": [
+        "Minas de Dilitio en cuerpos con depósitos",
+        "Comercio"
+      ],
+      "notes": "En la wiki M-class tiene depósito 1.",
+      "warp_recharge_role": "1 unidad de Dilitio forma parte de la mezcla 2 AM + 2 Deuterio + 1 Dilitio = 50 de núcleo warp."
+    },
+    {
+      "id": "RES-010",
+      "name": "Tritanio",
+      "type": "material avanzado",
+      "tradable": true,
+      "main_uses": [
+        "Construcción de naves avanzadas",
+        "Torpedos de plasma",
+        "Blindaje y componentes de alta resistencia"
+      ],
+      "obtained_from": [
+        "Producción/minería avanzada y comercio"
+      ]
+    },
+    {
+      "id": "RES-011",
+      "name": "Sorio",
+      "type": "recurso raro",
+      "tradable": true,
+      "main_uses": [
+        "Tecnología avanzada",
+        "Construcción de ciertas naves",
+        "Torpedos cuánticos / investigación avanzada",
+        "Terraformación"
+      ],
+      "obtained_from": [
+        "Minas de Sorio",
+        "Principalmente planetas de hielo y asteroides de hielo en el diseño STNE"
+      ],
+      "notes": "Requiere investigación de minería de Sorio."
+    },
+    {
+      "id": "RES-012",
+      "name": "Nitrio",
+      "type": "recurso mineral",
+      "tradable": true,
+      "main_uses": [
+        "Producción industrial",
+        "Construcciones/tecnologías específicas",
+        "Comercio"
+      ],
+      "obtained_from": [
+        "Depósitos planetarios apropiados",
+        "Comercio"
+      ],
+      "notes": "No disponible en planeta estándar M según la ficha consultada."
+    },
+    {
+      "id": "RES-013",
+      "name": "Plasma",
+      "type": "recurso energético avanzado",
+      "tradable": true,
+      "main_uses": [
+        "Torpedos de plasma",
+        "Construcción de naves avanzadas",
+        "Sistemas energéticos",
+        "Producción tecnológica avanzada"
+      ],
+      "obtained_from": [
+        "Conversores de Plasma; en STNE 6 Deuterio -> 4 Plasma"
+      ],
+      "project_rule": "El Plasma NO sustituye las recetas de recarga warp. La recarga del núcleo warp se mantiene con Deuterio directo o con la mezcla Deuterio + Antimateria + Dilitio.",
+      "wiki_difference": "Se preserva la mecánica documentada: Deuterio directo y mezcla 2 Antimateria + 2 Deuterio + 1 Dilitio."
+    },
+    {
+      "id": "RES-014",
+      "name": "Torpedo fotónico",
+      "type": "munición",
+      "tradable": true,
+      "main_uses": [
+        "Munición estándar"
+      ],
+      "obtained_from": [
+        "Producción militar"
+      ],
+      "recipe_reference": "2 unidades: 4 energía + 2 Duranio + 2 Deuterio + 2 Antimateria"
+    },
+    {
+      "id": "RES-015",
+      "name": "Torpedo de plasma",
+      "type": "munición",
+      "tradable": true,
+      "main_uses": [
+        "Munición de alto daño"
+      ],
+      "obtained_from": [
+        "Producción militar"
+      ],
+      "recipe_reference": "2 unidades: 4 energía + 4 Tritanio + 4 Plasma"
+    },
+    {
+      "id": "RES-016",
+      "name": "Torpedo cuántico",
+      "type": "munición",
+      "tradable": true,
+      "main_uses": [
+        "Munición avanzada"
+      ],
+      "obtained_from": [
+        "Producción militar avanzada"
+      ]
+    },
+    {
+      "id": "RES-017",
+      "name": "Torpedo EMP",
+      "type": "munición",
+      "tradable": true,
+      "main_uses": [
+        "Daño EMP / neutralización"
+      ],
+      "obtained_from": [
+        "Producción militar"
+      ]
+    },
+    {
+      "id": "RES-018",
+      "name": "Torpedo Némesis",
+      "type": "munición",
+      "tradable": true,
+      "main_uses": [
+        "Daño especializado a escudos"
+      ],
+      "obtained_from": [
+        "Producción militar"
+      ]
+    },
+    {
+      "id": "RES-019",
+      "name": "Torpedo Polaron",
+      "type": "munición",
+      "tradable": true,
+      "main_uses": [
+        "Daño especializado que atraviesa/afecta casco según mecánica"
+      ],
+      "obtained_from": [
+        "Producción militar"
+      ],
+      "recipe_reference": "2 unidades: 3 energía + 2 torpedos fotónicos + 1 Dilitio"
+    },
+    {
+      "id": "RES-020",
+      "name": "Latinum",
+      "type": "moneda / mercancía",
+      "tradable": true,
+      "main_uses": [
+        "Comercio Ferengi",
+        "Bien de alto valor"
+      ],
+      "obtained_from": [
+        "Comercio / eventos / economía NPC"
+      ]
+    },
+    {
+      "id": "RES-021",
+      "name": "Larne",
+      "type": "moneda / mercancía",
+      "tradable": true,
+      "main_uses": [
+        "Comercio y economía de ciertos mercados"
+      ],
+      "obtained_from": [
+        "Comercio / sistemas económicos"
+      ]
+    },
+    {
+      "id": "RES-022",
+      "name": "Créditos",
+      "type": "moneda",
+      "tradable": false,
+      "main_uses": [
+        "Servicios premium / compras especiales / ciertas naves"
+      ],
+      "obtained_from": [
+        "Sistema de créditos / eventos / recompensas según servidor"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4234 @@
+{
+  "version": "1.0",
+  "total": 300,
+  "rules": {
+    "descripcion": "Los ítems otorgan mejoras moderadas. Cada nave tiene un máximo de ítems instalados según su clase.",
+    "limites_por_clase": {
+      "Sonda NPC": 1,
+      "Puesto de escucha subespacial NPC": 2,
+      "Explorador / Scout": 1,
+      "Patrulla": 1,
+      "Caza": 1,
+      "Corbeta": 1,
+      "Fragata": 2,
+      "Fragata ligera": 2,
+      "Fragata pesada": 2,
+      "Crucero": 3,
+      "Destructor": 4,
+      "Portanaves": 5,
+      "Crucero de batalla": 5,
+      "Acorazado": 6,
+      "Acorazado ligero": 5,
+      "Acorazado pesado": 6,
+      "Dreadnought / Superacorazado": 7,
+      "Nave insignia / Nave del almirante": 8,
+      "Portanaves insignia": 7,
+      "Colonización": 2,
+      "Construcción": 1,
+      "Colector / Tanquero": 2,
+      "Transporte": 2,
+      "Arma de destrucción masiva": 4,
+      "Plataforma defensiva": 5,
+      "Depósito": 5,
+      "Puesto avanzado": 5,
+      "Astillero": 5,
+      "Base estelar": 5,
+      "Base de flota": 5
+    },
+    "espacio_almacenamiento_normal": 1,
+    "espacio_items_pesados": "2-4",
+    "consumibles": "Ocupan almacenamiento, pero no cuentan contra el límite de ítems instalados hasta que una mecánica futura indique lo contrario.",
+    "ejemplo_ferengi": "Reglas de Adquisición Ferengi: +500 de almacenamiento interno.",
+    "ejemplo_borg": "Torpedo de nanovirus Borg: arma consumible; ocupa almacenamiento y causa daño a escudos/casco."
+  },
+  "items": [
+    {
+      "id": "ITM-001",
+      "nombre": "Acoplador EPS optimizado",
+      "categoria": "energía",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "eps_pct": 6,
+        "energia_principal_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-002",
+      "nombre": "Regulador de flujo de plasma",
+      "categoria": "energía",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "eps_pct": 2,
+        "energia_principal_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-003",
+      "nombre": "Celda auxiliar de energía",
+      "categoria": "energía",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "eps_pct": 5,
+        "energia_principal_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-004",
+      "nombre": "Inyector de deuterio calibrado",
+      "categoria": "energía",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "eps_pct": 5,
+        "energia_principal_pct": 5
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-005",
+      "nombre": "Matriz de distribución energética",
+      "categoria": "energía",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "eps_pct": 3,
+        "energia_principal_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-006",
+      "nombre": "Condensador de reserva táctica",
+      "categoria": "energía",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "eps_pct": 4,
+        "energia_principal_pct": 5
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-007",
+      "nombre": "Bobina de transferencia EPS",
+      "categoria": "energía",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "eps_pct": 5,
+        "energia_principal_pct": 5
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-008",
+      "nombre": "Estabilizador de reactor",
+      "categoria": "energía",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "eps_pct": 5,
+        "energia_principal_pct": 5
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-009",
+      "nombre": "Banco de baterías reforzado",
+      "categoria": "energía",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "eps_pct": 6,
+        "energia_principal_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-010",
+      "nombre": "Módulo de recuperación energética",
+      "categoria": "energía",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "eps_pct": 5,
+        "energia_principal_pct": 5
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-011",
+      "nombre": "Computador de tiro afinado",
+      "categoria": "armamento",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 3,
+        "calentamiento_armas_pct": -2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-012",
+      "nombre": "Alineador de bancos de fase",
+      "categoria": "armamento",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 2,
+      "efectos": {
+        "dps_pct": 6,
+        "calentamiento_armas_pct": -4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-013",
+      "nombre": "Compensador de retroceso energético",
+      "categoria": "armamento",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 4,
+        "calentamiento_armas_pct": -1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-014",
+      "nombre": "Amplificador de pulso táctico",
+      "categoria": "armamento",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 2,
+        "calentamiento_armas_pct": -1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-015",
+      "nombre": "Refrigerador de armas",
+      "categoria": "armamento",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 5,
+        "calentamiento_armas_pct": -3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-016",
+      "nombre": "Matriz de adquisición de blancos",
+      "categoria": "armamento",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 2,
+      "efectos": {
+        "dps_pct": 7,
+        "calentamiento_armas_pct": -3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-017",
+      "nombre": "Controlador de ráfaga",
+      "categoria": "armamento",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 2,
+      "efectos": {
+        "dps_pct": 2,
+        "calentamiento_armas_pct": -1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-018",
+      "nombre": "Distribuidor de potencia ofensiva",
+      "categoria": "armamento",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 5,
+        "calentamiento_armas_pct": -3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-019",
+      "nombre": "Sincronizador de torretas",
+      "categoria": "armamento",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 7,
+        "calentamiento_armas_pct": -3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-020",
+      "nombre": "Módulo de sobrecarga controlada",
+      "categoria": "armamento",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 4,
+        "calentamiento_armas_pct": -3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-021",
+      "nombre": "Calculador balístico subespacial",
+      "categoria": "armamento",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 2,
+      "efectos": {
+        "dps_pct": 3,
+        "calentamiento_armas_pct": -3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-022",
+      "nombre": "Armonizador de escudos",
+      "categoria": "escudos",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "escudos_pct": 6,
+        "regeneracion_escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-023",
+      "nombre": "Reforzador de frecuencia defensiva",
+      "categoria": "escudos",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "escudos_pct": 8,
+        "regeneracion_escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-024",
+      "nombre": "Matriz de redistribución de escudo",
+      "categoria": "escudos",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "escudos_pct": 6,
+        "regeneracion_escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-025",
+      "nombre": "Acoplador de escudo dorsal",
+      "categoria": "escudos",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "escudos_pct": 3,
+        "regeneracion_escudos_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-026",
+      "nombre": "Acoplador de escudo ventral",
+      "categoria": "escudos",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "escudos_pct": 3,
+        "regeneracion_escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-027",
+      "nombre": "Regulador de regeneración de escudos",
+      "categoria": "escudos",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "escudos_pct": 8,
+        "regeneracion_escudos_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-028",
+      "nombre": "Compensador de impacto energético",
+      "categoria": "escudos",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "escudos_pct": 6,
+        "regeneracion_escudos_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-029",
+      "nombre": "Modulador de fase defensiva",
+      "categoria": "escudos",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "escudos_pct": 3,
+        "regeneracion_escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-030",
+      "nombre": "Reserva de escudo de emergencia",
+      "categoria": "escudos",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "escudos_pct": 4,
+        "regeneracion_escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-031",
+      "nombre": "Proyector de escudo auxiliar",
+      "categoria": "escudos",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "escudos_pct": 4,
+        "regeneracion_escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-032",
+      "nombre": "Malla de disipación de escudo",
+      "categoria": "escudos",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "escudos_pct": 5,
+        "regeneracion_escudos_pct": 5
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-033",
+      "nombre": "Refuerzo estructural ligero",
+      "categoria": "casco",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "casco_pct": 8,
+        "resistencia_dano_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-034",
+      "nombre": "Placas de duranio adicionales",
+      "categoria": "casco",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "casco_pct": 3,
+        "resistencia_dano_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-035",
+      "nombre": "Malla de tritanio",
+      "categoria": "casco",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "casco_pct": 4,
+        "resistencia_dano_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-036",
+      "nombre": "Mamparo reforzado",
+      "categoria": "casco",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "casco_pct": 6,
+        "resistencia_dano_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-037",
+      "nombre": "Compuesto estructural flexible",
+      "categoria": "casco",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "casco_pct": 6,
+        "resistencia_dano_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-038",
+      "nombre": "Sellador automático de casco",
+      "categoria": "casco",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "casco_pct": 8,
+        "resistencia_dano_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-039",
+      "nombre": "Vigas internas de alta tensión",
+      "categoria": "casco",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "casco_pct": 8,
+        "resistencia_dano_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-040",
+      "nombre": "Paneles de absorción cinética",
+      "categoria": "casco",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "casco_pct": 4,
+        "resistencia_dano_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-041",
+      "nombre": "Refuerzo del anillo central",
+      "categoria": "casco",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "casco_pct": 8,
+        "resistencia_dano_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-042",
+      "nombre": "Estructura secundaria de emergencia",
+      "categoria": "casco",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "casco_pct": 5,
+        "resistencia_dano_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-043",
+      "nombre": "Blindaje segmentado",
+      "categoria": "casco",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "casco_pct": 7,
+        "resistencia_dano_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-044",
+      "nombre": "Filtro LRS de alta precisión",
+      "categoria": "sensores",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "precision_pct": 3,
+        "lrs_bonus": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-045",
+      "nombre": "Receptor subespacial mejorado",
+      "categoria": "sensores",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "precision_pct": 4,
+        "lrs_bonus": 0
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-046",
+      "nombre": "Matriz de sensores pasivos",
+      "categoria": "sensores",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "precision_pct": 4,
+        "lrs_bonus": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-047",
+      "nombre": "Analizador de firma energética",
+      "categoria": "sensores",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "precision_pct": 2,
+        "lrs_bonus": 0
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-048",
+      "nombre": "Procesador de telemetría",
+      "categoria": "sensores",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "precision_pct": 2,
+        "lrs_bonus": 0
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-049",
+      "nombre": "Compensador de ruido subespacial",
+      "categoria": "sensores",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "precision_pct": 2,
+        "lrs_bonus": 0
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-050",
+      "nombre": "Módulo de rastreo de objetivos",
+      "categoria": "sensores",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "precision_pct": 4,
+        "lrs_bonus": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-051",
+      "nombre": "Sensor gravimétrico auxiliar",
+      "categoria": "sensores",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "precision_pct": 5,
+        "lrs_bonus": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-052",
+      "nombre": "Escáner de partículas",
+      "categoria": "sensores",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "precision_pct": 5,
+        "lrs_bonus": 0
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-053",
+      "nombre": "Amplificador de señal LRS",
+      "categoria": "sensores",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "precision_pct": 3,
+        "lrs_bonus": 0
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-054",
+      "nombre": "Matriz de identificación táctica",
+      "categoria": "sensores",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "precision_pct": 3,
+        "lrs_bonus": 0
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-055",
+      "nombre": "Bobina de impulso afinada",
+      "categoria": "motores",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "coste_vuelo_pct": -2,
+        "evasion_puntos": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-056",
+      "nombre": "Regulador de inercia",
+      "categoria": "motores",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "coste_vuelo_pct": -6,
+        "evasion_puntos": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-057",
+      "nombre": "Ajustador de campo warp",
+      "categoria": "motores",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "coste_vuelo_pct": -6,
+        "evasion_puntos": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-058",
+      "nombre": "Módulo de empuje auxiliar",
+      "categoria": "motores",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "coste_vuelo_pct": -6,
+        "evasion_puntos": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-059",
+      "nombre": "Compensador de deriva",
+      "categoria": "motores",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "coste_vuelo_pct": -6,
+        "evasion_puntos": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-060",
+      "nombre": "Inyector de plasma de maniobra",
+      "categoria": "motores",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "coste_vuelo_pct": -2,
+        "evasion_puntos": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-061",
+      "nombre": "Controlador RCS avanzado",
+      "categoria": "motores",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "coste_vuelo_pct": -3,
+        "evasion_puntos": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-062",
+      "nombre": "Matriz de estabilización de vuelo",
+      "categoria": "motores",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "coste_vuelo_pct": -6,
+        "evasion_puntos": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-063",
+      "nombre": "Acoplador de góndola",
+      "categoria": "motores",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "coste_vuelo_pct": -5,
+        "evasion_puntos": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-064",
+      "nombre": "Refrigeración de motores",
+      "categoria": "motores",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "coste_vuelo_pct": -6,
+        "evasion_puntos": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-065",
+      "nombre": "Módulo de navegación táctica",
+      "categoria": "motores",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "coste_vuelo_pct": -5,
+        "evasion_puntos": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-066",
+      "nombre": "Estanterías modulares",
+      "categoria": "carga",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 80
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-067",
+      "nombre": "Compresor de carga",
+      "categoria": "carga",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 150
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-068",
+      "nombre": "Contenedores de alta densidad",
+      "categoria": "carga",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 150
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-069",
+      "nombre": "Organizador de bodega",
+      "categoria": "carga",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 200
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-070",
+      "nombre": "Rieles de carga reforzados",
+      "categoria": "carga",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 250
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-071",
+      "nombre": "Sistema de apilado automático",
+      "categoria": "carga",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 150
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-072",
+      "nombre": "Bodega auxiliar plegable",
+      "categoria": "carga",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 200
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-073",
+      "nombre": "Módulo de almacenamiento técnico",
+      "categoria": "carga",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 120
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-074",
+      "nombre": "Compartimentos sellados",
+      "categoria": "carga",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 120
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-075",
+      "nombre": "Contenedores isotérmicos",
+      "categoria": "carga",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 200
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-076",
+      "nombre": "Red de sujeción de carga",
+      "categoria": "carga",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 250
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-077",
+      "nombre": "Nanorreparadores de casco",
+      "categoria": "reparación",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "reparacion_casco_pct": 3,
+        "reparacion_escudos_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-078",
+      "nombre": "Drones de mantenimiento",
+      "categoria": "reparación",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "reparacion_casco_pct": 6,
+        "reparacion_escudos_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-079",
+      "nombre": "Kit de reparación EPS",
+      "categoria": "reparación",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "reparacion_casco_pct": 4,
+        "reparacion_escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-080",
+      "nombre": "Reserva de sellador estructural",
+      "categoria": "reparación",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "reparacion_casco_pct": 6,
+        "reparacion_escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-081",
+      "nombre": "Módulo de diagnóstico automático",
+      "categoria": "reparación",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "reparacion_casco_pct": 3,
+        "reparacion_escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-082",
+      "nombre": "Banco de repuestos críticos",
+      "categoria": "reparación",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "reparacion_casco_pct": 2,
+        "reparacion_escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-083",
+      "nombre": "Drones soldadores",
+      "categoria": "reparación",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "reparacion_casco_pct": 2,
+        "reparacion_escudos_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-084",
+      "nombre": "Unidad de reparación de escudos",
+      "categoria": "reparación",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "reparacion_casco_pct": 3,
+        "reparacion_escudos_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-085",
+      "nombre": "Reconstructor de circuitos",
+      "categoria": "reparación",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "reparacion_casco_pct": 3,
+        "reparacion_escudos_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-086",
+      "nombre": "Impresora de piezas técnicas",
+      "categoria": "reparación",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "reparacion_casco_pct": 6,
+        "reparacion_escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-087",
+      "nombre": "Matriz de mantenimiento preventivo",
+      "categoria": "reparación",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "reparacion_casco_pct": 2,
+        "reparacion_escudos_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-088",
+      "nombre": "Módulo de coordinación de puente",
+      "categoria": "tripulación",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "tripulacion_max_pct": 5,
+        "eficiencia_tripulacion_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-089",
+      "nombre": "Asistente táctico de IA limitada",
+      "categoria": "tripulación",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "tripulacion_max_pct": 4,
+        "eficiencia_tripulacion_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-090",
+      "nombre": "Simulador de entrenamiento",
+      "categoria": "tripulación",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "tripulacion_max_pct": 2,
+        "eficiencia_tripulacion_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-091",
+      "nombre": "Terminal de mando redundante",
+      "categoria": "tripulación",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "tripulacion_max_pct": 6,
+        "eficiencia_tripulacion_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-092",
+      "nombre": "Sistema de turnos optimizado",
+      "categoria": "tripulación",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "tripulacion_max_pct": 4,
+        "eficiencia_tripulacion_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-093",
+      "nombre": "Módulo médico de campaña",
+      "categoria": "tripulación",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "tripulacion_max_pct": 5,
+        "eficiencia_tripulacion_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-094",
+      "nombre": "Cabinas compactas mejoradas",
+      "categoria": "tripulación",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "tripulacion_max_pct": 2,
+        "eficiencia_tripulacion_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-095",
+      "nombre": "Centro de coordinación de daños",
+      "categoria": "tripulación",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "tripulacion_max_pct": 6,
+        "eficiencia_tripulacion_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-096",
+      "nombre": "Panel de mando ergonómico",
+      "categoria": "tripulación",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "tripulacion_max_pct": 2,
+        "eficiencia_tripulacion_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-097",
+      "nombre": "Archivo táctico de la flota",
+      "categoria": "tripulación",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "tripulacion_max_pct": 6,
+        "eficiencia_tripulacion_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-098",
+      "nombre": "Traductor universal avanzado",
+      "categoria": "tripulación",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "tripulacion_max_pct": 6,
+        "eficiencia_tripulacion_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-099",
+      "nombre": "Cargador automático de torpedos",
+      "categoria": "torpedos",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "capacidad_torpedos_pct": 10,
+        "precision_torpedos_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-100",
+      "nombre": "Riel de lanzamiento reforzado",
+      "categoria": "torpedos",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 2,
+      "efectos": {
+        "capacidad_torpedos_pct": 7,
+        "precision_torpedos_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-101",
+      "nombre": "Computador de solución de tiro",
+      "categoria": "torpedos",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "capacidad_torpedos_pct": 9,
+        "precision_torpedos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-102",
+      "nombre": "Enfriador de tubo lanzatorpedos",
+      "categoria": "torpedos",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "capacidad_torpedos_pct": 5,
+        "precision_torpedos_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-103",
+      "nombre": "Almacén blindado de torpedos",
+      "categoria": "torpedos",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "capacidad_torpedos_pct": 6,
+        "precision_torpedos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-104",
+      "nombre": "Secuenciador de lanzamiento",
+      "categoria": "torpedos",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "capacidad_torpedos_pct": 7,
+        "precision_torpedos_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-105",
+      "nombre": "Estabilizador de guía",
+      "categoria": "torpedos",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "capacidad_torpedos_pct": 6,
+        "precision_torpedos_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-106",
+      "nombre": "Módulo de recarga acelerada",
+      "categoria": "torpedos",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "capacidad_torpedos_pct": 4,
+        "precision_torpedos_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-107",
+      "nombre": "Selector de ojivas",
+      "categoria": "torpedos",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "capacidad_torpedos_pct": 6,
+        "precision_torpedos_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-108",
+      "nombre": "Ajustador de espoleta",
+      "categoria": "torpedos",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "capacidad_torpedos_pct": 6,
+        "precision_torpedos_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-109",
+      "nombre": "Compensador de dispersión",
+      "categoria": "torpedos",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "capacidad_torpedos_pct": 4,
+        "precision_torpedos_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-110",
+      "nombre": "Reglas de Adquisición Ferengi",
+      "categoria": "ferengi",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 500
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-111",
+      "nombre": "Contenedor de latinum protegido",
+      "categoria": "ferengi",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 150,
+        "coste_vuelo_pct": 0
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-112",
+      "nombre": "Contrato de carga preferente",
+      "categoria": "ferengi",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 350,
+        "coste_vuelo_pct": -2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-113",
+      "nombre": "Módulo de inventario Ferengi",
+      "categoria": "ferengi",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 350,
+        "coste_vuelo_pct": -3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-114",
+      "nombre": "Compresor de bodega Ferengi",
+      "categoria": "ferengi",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 350,
+        "coste_vuelo_pct": 0
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-115",
+      "nombre": "Transpondedor mercante autorizado",
+      "categoria": "ferengi",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 350,
+        "coste_vuelo_pct": -1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-116",
+      "nombre": "Calculador de margen comercial",
+      "categoria": "ferengi",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 300,
+        "coste_vuelo_pct": -2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-117",
+      "nombre": "Caja fuerte de la Autoridad de Comercio",
+      "categoria": "ferengi",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 200,
+        "coste_vuelo_pct": 0
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-118",
+      "nombre": "Red logística del Gran Nagus",
+      "categoria": "ferengi",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 200,
+        "coste_vuelo_pct": -1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-119",
+      "nombre": "Manifiesto de carga optimizado",
+      "categoria": "ferengi",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 300,
+        "coste_vuelo_pct": -3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-120",
+      "nombre": "Compartimento de mercancía discreta",
+      "categoria": "ferengi",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 350,
+        "coste_vuelo_pct": -1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-121",
+      "nombre": "Certificado de expansión de bodega",
+      "categoria": "ferengi",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 300,
+        "coste_vuelo_pct": -1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-122",
+      "nombre": "Torpedo de nanovirus Borg",
+      "categoria": "borg",
+      "rareza": "élite",
+      "tipo": "arma consumible",
+      "instalable": false,
+      "espacio_almacenamiento": 3,
+      "efectos": {
+        "arma_consumible": "torpedo_nanovirus",
+        "dano_casco": 220,
+        "dano_escudo": 120
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-123",
+      "nombre": "Destructor de escudos Borg",
+      "categoria": "borg",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 4,
+      "efectos": {
+        "dano_escudos_pct": 6
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-124",
+      "nombre": "Nodo de regeneración Borg",
+      "categoria": "borg",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 2,
+      "efectos": {
+        "regeneracion_casco_pct": 6,
+        "escudos_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-125",
+      "nombre": "Matriz adaptativa Borg",
+      "categoria": "borg",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "regeneracion_casco_pct": 5,
+        "escudos_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-126",
+      "nombre": "Nanitos de reparación Borg",
+      "categoria": "borg",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 2,
+      "efectos": {
+        "regeneracion_casco_pct": 3,
+        "escudos_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-127",
+      "nombre": "Emisor de asimilación limitado",
+      "categoria": "borg",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 4,
+      "efectos": {
+        "regeneracion_casco_pct": 4,
+        "escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-128",
+      "nombre": "Acoplador transwarp Borg",
+      "categoria": "borg",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 2,
+      "efectos": {
+        "regeneracion_casco_pct": 5,
+        "escudos_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-129",
+      "nombre": "Módulo de regeneración cortical",
+      "categoria": "borg",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 4,
+      "efectos": {
+        "regeneracion_casco_pct": 4,
+        "escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-130",
+      "nombre": "Proyector de corte Borg",
+      "categoria": "borg",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 2,
+      "efectos": {
+        "regeneracion_casco_pct": 4,
+        "escudos_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-131",
+      "nombre": "Banco de drones de reparación",
+      "categoria": "borg",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 2,
+      "efectos": {
+        "regeneracion_casco_pct": 6,
+        "escudos_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-132",
+      "nombre": "Analizador adaptativo de frecuencias",
+      "categoria": "borg",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 2,
+      "efectos": {
+        "regeneracion_casco_pct": 3,
+        "escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-133",
+      "nombre": "Nodo de distribución colectiva",
+      "categoria": "borg",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "regeneracion_casco_pct": 3,
+        "escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-134",
+      "nombre": "Regulador de singularidad romulano",
+      "categoria": "romulano",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 4,
+        "firma_sensor_pct": -3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-135",
+      "nombre": "Alineador de disruptor romulano",
+      "categoria": "romulano",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 7,
+        "firma_sensor_pct": -4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-136",
+      "nombre": "Matriz de ocultación romulana",
+      "categoria": "romulano",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 6,
+        "firma_sensor_pct": -4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-137",
+      "nombre": "Compensador de plasma romulano",
+      "categoria": "romulano",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 4,
+        "firma_sensor_pct": -3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-138",
+      "nombre": "Controlador de torpedo de plasma",
+      "categoria": "romulano",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 4,
+        "firma_sensor_pct": -1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-139",
+      "nombre": "Banco de datos Tal Shiar",
+      "categoria": "romulano",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 4,
+        "firma_sensor_pct": -2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-140",
+      "nombre": "Estabilizador de núcleo singular",
+      "categoria": "romulano",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 3,
+        "firma_sensor_pct": -4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-141",
+      "nombre": "Disipador de firma romulano",
+      "categoria": "romulano",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 3,
+        "firma_sensor_pct": -1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-142",
+      "nombre": "Predictor de emboscada",
+      "categoria": "romulano",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 7,
+        "firma_sensor_pct": -3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-143",
+      "nombre": "Amplificador de disruptor verde",
+      "categoria": "romulano",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 6,
+        "firma_sensor_pct": -4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-144",
+      "nombre": "Módulo de navegación encubierta",
+      "categoria": "romulano",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 6,
+        "firma_sensor_pct": -2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-145",
+      "nombre": "Emisor de señuelo romulano",
+      "categoria": "romulano",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 4,
+        "firma_sensor_pct": -2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-146",
+      "nombre": "Alineador de disruptor klingon",
+      "categoria": "klingon",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 6,
+        "casco_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-147",
+      "nombre": "Controlador de cañón pesado klingon",
+      "categoria": "klingon",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 7,
+        "casco_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-148",
+      "nombre": "Matriz de honor de combate",
+      "categoria": "klingon",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 3,
+        "casco_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-149",
+      "nombre": "Compensador de ocultación klingon",
+      "categoria": "klingon",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 4,
+        "casco_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-150",
+      "nombre": "Cargador de torpedos de asedio",
+      "categoria": "klingon",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 4,
+        "casco_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-151",
+      "nombre": "Refuerzo de proa klingon",
+      "categoria": "klingon",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 7,
+        "casco_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-152",
+      "nombre": "Computador táctico de la Casa",
+      "categoria": "klingon",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 3,
+        "casco_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-153",
+      "nombre": "Regulador de sobrecarga klingon",
+      "categoria": "klingon",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 5,
+        "casco_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-154",
+      "nombre": "Módulo de abordaje klingon",
+      "categoria": "klingon",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 5,
+        "casco_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-155",
+      "nombre": "Distribuidor de energía de combate",
+      "categoria": "klingon",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 6,
+        "casco_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-156",
+      "nombre": "Enfriador de disruptores",
+      "categoria": "klingon",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 6,
+        "casco_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-157",
+      "nombre": "Sensor de caza klingon",
+      "categoria": "klingon",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_disruptor_pct": 4,
+        "casco_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-158",
+      "nombre": "Acoplador de phaser de la Flota",
+      "categoria": "federación",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_phaser_pct": 6,
+        "escudos_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-159",
+      "nombre": "Matriz de phaser tipo XII",
+      "categoria": "federación",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_phaser_pct": 4,
+        "escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-160",
+      "nombre": "Regulador de torpedo cuántico",
+      "categoria": "federación",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_phaser_pct": 2,
+        "escudos_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-161",
+      "nombre": "Compensador de escudo de la Flota",
+      "categoria": "federación",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_phaser_pct": 5,
+        "escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-162",
+      "nombre": "Banco de datos de la Federación",
+      "categoria": "federación",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_phaser_pct": 4,
+        "escudos_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-163",
+      "nombre": "Módulo de sensores Starfleet",
+      "categoria": "federación",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_phaser_pct": 6,
+        "escudos_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-164",
+      "nombre": "Distribuidor EPS de la Flota",
+      "categoria": "federación",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_phaser_pct": 2,
+        "escudos_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-165",
+      "nombre": "Controlador de deflector principal",
+      "categoria": "federación",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_phaser_pct": 5,
+        "escudos_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-166",
+      "nombre": "Matriz de navegación LCARS",
+      "categoria": "federación",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_phaser_pct": 4,
+        "escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-167",
+      "nombre": "Computador táctico de la Flota",
+      "categoria": "federación",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_phaser_pct": 4,
+        "escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-168",
+      "nombre": "Módulo médico Starfleet",
+      "categoria": "federación",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_phaser_pct": 6,
+        "escudos_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-169",
+      "nombre": "Emisor de tractor mejorado",
+      "categoria": "federación",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_phaser_pct": 4,
+        "escudos_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-170",
+      "nombre": "Amplificador polaron del Dominio",
+      "categoria": "dominio",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_polaron_pct": 7,
+        "precision_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-171",
+      "nombre": "Matriz de ataque Jem'Hadar",
+      "categoria": "dominio",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_polaron_pct": 4,
+        "precision_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-172",
+      "nombre": "Regulador de energía polaron",
+      "categoria": "dominio",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_polaron_pct": 3,
+        "precision_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-173",
+      "nombre": "Módulo de supresión Breen",
+      "categoria": "dominio",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_polaron_pct": 5,
+        "precision_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-174",
+      "nombre": "Controlador de torpedo del Dominio",
+      "categoria": "dominio",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_polaron_pct": 4,
+        "precision_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-175",
+      "nombre": "Banco táctico Vorta",
+      "categoria": "dominio",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_polaron_pct": 4,
+        "precision_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-176",
+      "nombre": "Refuerzo de casco Jem'Hadar",
+      "categoria": "dominio",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_polaron_pct": 5,
+        "precision_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-177",
+      "nombre": "Compensador de drenaje energético",
+      "categoria": "dominio",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_polaron_pct": 4,
+        "precision_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-178",
+      "nombre": "Computador de formación de ataque",
+      "categoria": "dominio",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_polaron_pct": 3,
+        "precision_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-179",
+      "nombre": "Inyector de reactor del Dominio",
+      "categoria": "dominio",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_polaron_pct": 7,
+        "precision_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-180",
+      "nombre": "Sensor de persecución Jem'Hadar",
+      "categoria": "dominio",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_polaron_pct": 5,
+        "precision_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-181",
+      "nombre": "Módulo de obediencia táctica",
+      "categoria": "dominio",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_polaron_pct": 3,
+        "precision_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-182",
+      "nombre": "Computador de asedio Rulano",
+      "categoria": "rulano",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_armas_pesadas_pct": 3,
+        "casco_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-183",
+      "nombre": "Amplificador de cañón Rulano",
+      "categoria": "rulano",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_armas_pesadas_pct": 3,
+        "casco_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-184",
+      "nombre": "Regulador de torpedo gravítico",
+      "categoria": "rulano",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_armas_pesadas_pct": 5,
+        "casco_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-185",
+      "nombre": "Matriz de ruptura espacial",
+      "categoria": "rulano",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_armas_pesadas_pct": 6,
+        "casco_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-186",
+      "nombre": "Refuerzo de casco Rulano",
+      "categoria": "rulano",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_armas_pesadas_pct": 4,
+        "casco_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-187",
+      "nombre": "Módulo de sobrecarga Rhulan",
+      "categoria": "rulano",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_armas_pesadas_pct": 3,
+        "casco_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-188",
+      "nombre": "Sensor de incursión Rulano",
+      "categoria": "rulano",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_armas_pesadas_pct": 8,
+        "casco_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-189",
+      "nombre": "Controlador de pulso pesado",
+      "categoria": "rulano",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_armas_pesadas_pct": 3,
+        "casco_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-190",
+      "nombre": "Refrigerador de arma de asedio",
+      "categoria": "rulano",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_armas_pesadas_pct": 6,
+        "casco_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-191",
+      "nombre": "Compensador de retroceso Rulano",
+      "categoria": "rulano",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_armas_pesadas_pct": 5,
+        "casco_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-192",
+      "nombre": "Módulo de interdicción Rhulan",
+      "categoria": "rulano",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_armas_pesadas_pct": 4,
+        "casco_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-193",
+      "nombre": "Banco de datos de saqueo",
+      "categoria": "rulano",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_armas_pesadas_pct": 3,
+        "casco_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-194",
+      "nombre": "Matriz de protones Exterminadora",
+      "categoria": "exterminador",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_misiles_pct": 8,
+        "resistencia_dano_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-195",
+      "nombre": "Controlador OM-5",
+      "categoria": "exterminador",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_misiles_pct": 3,
+        "resistencia_dano_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-196",
+      "nombre": "Controlador DM-5",
+      "categoria": "exterminador",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_misiles_pct": 4,
+        "resistencia_dano_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-197",
+      "nombre": "Guía PM-6 Star Arrow",
+      "categoria": "exterminador",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_misiles_pct": 4,
+        "resistencia_dano_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-198",
+      "nombre": "Armadura reactiva Exterminadora",
+      "categoria": "exterminador",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_misiles_pct": 7,
+        "resistencia_dano_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-199",
+      "nombre": "Módulo de bloqueo de sistema",
+      "categoria": "exterminador",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_misiles_pct": 6,
+        "resistencia_dano_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-200",
+      "nombre": "Computador autónomo de objetivos",
+      "categoria": "exterminador",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_misiles_pct": 5,
+        "resistencia_dano_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-201",
+      "nombre": "Amplificador de ruptura de escudos",
+      "categoria": "exterminador",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_misiles_pct": 4,
+        "resistencia_dano_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-202",
+      "nombre": "Banco de misiles tácticos",
+      "categoria": "exterminador",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_misiles_pct": 3,
+        "resistencia_dano_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-203",
+      "nombre": "Matriz de fuego automatizado",
+      "categoria": "exterminador",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_misiles_pct": 5,
+        "resistencia_dano_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-204",
+      "nombre": "Nodo de reparación de combate",
+      "categoria": "exterminador",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_misiles_pct": 7,
+        "resistencia_dano_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-205",
+      "nombre": "Estabilizador de cañón protónico",
+      "categoria": "exterminador",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_misiles_pct": 4,
+        "resistencia_dano_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-206",
+      "nombre": "Amplificador phaser Terrano",
+      "categoria": "terrano",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 6,
+        "tripulacion_max_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-207",
+      "nombre": "Módulo agonizador táctico",
+      "categoria": "terrano",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 3,
+        "tripulacion_max_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-208",
+      "nombre": "Regulador de torpedo Terrano",
+      "categoria": "terrano",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 3,
+        "tripulacion_max_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-209",
+      "nombre": "Computador de asalto imperial",
+      "categoria": "terrano",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 4,
+        "tripulacion_max_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-210",
+      "nombre": "Refuerzo de casco ISS",
+      "categoria": "terrano",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 3,
+        "tripulacion_max_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-211",
+      "nombre": "Módulo de abordaje imperial",
+      "categoria": "terrano",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 6,
+        "tripulacion_max_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-212",
+      "nombre": "Matriz de fuego agresivo",
+      "categoria": "terrano",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 5,
+        "tripulacion_max_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-213",
+      "nombre": "Distribuidor EPS del Imperio",
+      "categoria": "terrano",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 3,
+        "tripulacion_max_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-214",
+      "nombre": "Banco de datos tácticos Terrano",
+      "categoria": "terrano",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 3,
+        "tripulacion_max_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-215",
+      "nombre": "Módulo de intimidación de puente",
+      "categoria": "terrano",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 3,
+        "tripulacion_max_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-216",
+      "nombre": "Sensor de persecución imperial",
+      "categoria": "terrano",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 4,
+        "tripulacion_max_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-217",
+      "nombre": "Controlador de ráfaga pesada",
+      "categoria": "terrano",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 3,
+        "tripulacion_max_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-218",
+      "nombre": "Módulo de salvamento Talaxiano",
+      "categoria": "talaxiano",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 80,
+        "reparacion_casco_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-219",
+      "nombre": "Compresor de carga Talaxiano",
+      "categoria": "talaxiano",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 200,
+        "reparacion_casco_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-220",
+      "nombre": "Regulador de reactor eficiente",
+      "categoria": "talaxiano",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 160,
+        "reparacion_casco_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-221",
+      "nombre": "Banco de piezas recicladas",
+      "categoria": "talaxiano",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 80,
+        "reparacion_casco_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-222",
+      "nombre": "Sistema de comercio Talaxiano",
+      "categoria": "talaxiano",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 160,
+        "reparacion_casco_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-223",
+      "nombre": "Sensor de rutas seguras",
+      "categoria": "talaxiano",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 200,
+        "reparacion_casco_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-224",
+      "nombre": "Contenedor modular Talaxiano",
+      "categoria": "talaxiano",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 200,
+        "reparacion_casco_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-225",
+      "nombre": "Kit de reparación improvisada",
+      "categoria": "talaxiano",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 120,
+        "reparacion_casco_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-226",
+      "nombre": "Módulo de cocina de larga duración",
+      "categoria": "talaxiano",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 80,
+        "reparacion_casco_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-227",
+      "nombre": "Clasificador de chatarra",
+      "categoria": "talaxiano",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 120,
+        "reparacion_casco_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-228",
+      "nombre": "Acoplador de phaser compacto",
+      "categoria": "talaxiano",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 80,
+        "reparacion_casco_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-229",
+      "nombre": "Matriz de ahorro energético",
+      "categoria": "talaxiano",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "almacenamiento_bonus": 80,
+        "reparacion_casco_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-230",
+      "nombre": "Amplificador de onda espiral",
+      "categoria": "cardassiano",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 3,
+        "armadura_bonus": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-231",
+      "nombre": "Regulador de cañón polaron",
+      "categoria": "cardassiano",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 4,
+        "armadura_bonus": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-232",
+      "nombre": "Matriz de mando Cardassiana",
+      "categoria": "cardassiano",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 4,
+        "armadura_bonus": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-233",
+      "nombre": "Computador de bloqueo de sistema",
+      "categoria": "cardassiano",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 2,
+        "armadura_bonus": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-234",
+      "nombre": "Refuerzo de blindaje Cardassiano",
+      "categoria": "cardassiano",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 6,
+        "armadura_bonus": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-235",
+      "nombre": "Sensor de rastreo subespacial",
+      "categoria": "cardassiano",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 5,
+        "armadura_bonus": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-236",
+      "nombre": "Controlador de torpedo multirresonante",
+      "categoria": "cardassiano",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 3,
+        "armadura_bonus": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-237",
+      "nombre": "Distribuidor EPS Cardassiano",
+      "categoria": "cardassiano",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 4,
+        "armadura_bonus": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-238",
+      "nombre": "Banco táctico de la Unión",
+      "categoria": "cardassiano",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 3,
+        "armadura_bonus": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-239",
+      "nombre": "Matriz de defensa orbital",
+      "categoria": "cardassiano",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 3,
+        "armadura_bonus": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-240",
+      "nombre": "Compensador de fase espiral",
+      "categoria": "cardassiano",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 4,
+        "armadura_bonus": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-241",
+      "nombre": "Módulo de disciplina de combate",
+      "categoria": "cardassiano",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 6,
+        "armadura_bonus": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-242",
+      "nombre": "Ardilla de peluche",
+      "categoria": "coleccionable",
+      "rareza": "común",
+      "tipo": "coleccionable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "moral_tripulacion_pct": 1,
+        "valor_comercial_bonus_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-243",
+      "nombre": "Dinosaurio de plástico",
+      "categoria": "coleccionable",
+      "rareza": "muy raro",
+      "tipo": "coleccionable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "moral_tripulacion_pct": 1,
+        "valor_comercial_bonus_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-244",
+      "nombre": "Léxico perdido de una civilización antigua",
+      "categoria": "coleccionable",
+      "rareza": "común",
+      "tipo": "coleccionable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "moral_tripulacion_pct": 3,
+        "valor_comercial_bonus_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-245",
+      "nombre": "Moneda de latinum falsificada",
+      "categoria": "coleccionable",
+      "rareza": "raro",
+      "tipo": "coleccionable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "moral_tripulacion_pct": 3,
+        "valor_comercial_bonus_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-246",
+      "nombre": "Mapa estelar dibujado a mano",
+      "categoria": "coleccionable",
+      "rareza": "raro",
+      "tipo": "coleccionable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "moral_tripulacion_pct": 1,
+        "valor_comercial_bonus_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-247",
+      "nombre": "Diario de un capitán desconocido",
+      "categoria": "coleccionable",
+      "rareza": "común",
+      "tipo": "coleccionable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "moral_tripulacion_pct": 2,
+        "valor_comercial_bonus_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-248",
+      "nombre": "Fragmento de una baliza prewarp",
+      "categoria": "coleccionable",
+      "rareza": "mejorado",
+      "tipo": "coleccionable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "moral_tripulacion_pct": 1,
+        "valor_comercial_bonus_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-249",
+      "nombre": "Estatuilla ceremonial Andoriana",
+      "categoria": "coleccionable",
+      "rareza": "mejorado",
+      "tipo": "coleccionable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "moral_tripulacion_pct": 2,
+        "valor_comercial_bonus_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-250",
+      "nombre": "Piedra grabada de Vulcano",
+      "categoria": "coleccionable",
+      "rareza": "común",
+      "tipo": "coleccionable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "moral_tripulacion_pct": 2,
+        "valor_comercial_bonus_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-251",
+      "nombre": "Botella vacía de sangre de vino",
+      "categoria": "coleccionable",
+      "rareza": "raro",
+      "tipo": "coleccionable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "moral_tripulacion_pct": 1,
+        "valor_comercial_bonus_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-252",
+      "nombre": "Placa de identificación de una nave perdida",
+      "categoria": "coleccionable",
+      "rareza": "mejorado",
+      "tipo": "coleccionable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "moral_tripulacion_pct": 1,
+        "valor_comercial_bonus_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-253",
+      "nombre": "Caja musical de Risa",
+      "categoria": "coleccionable",
+      "rareza": "muy raro",
+      "tipo": "coleccionable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "moral_tripulacion_pct": 3,
+        "valor_comercial_bonus_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-254",
+      "nombre": "Archivo xenotecnológico",
+      "categoria": "investigación",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "sensores_pct": 4,
+        "eficiencia_energia_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-255",
+      "nombre": "Muestra de aleación desconocida",
+      "categoria": "investigación",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "sensores_pct": 4,
+        "eficiencia_energia_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-256",
+      "nombre": "Cristal subespacial inestable",
+      "categoria": "investigación",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "sensores_pct": 1,
+        "eficiencia_energia_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-257",
+      "nombre": "Registro de sensores antiguos",
+      "categoria": "investigación",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "sensores_pct": 3,
+        "eficiencia_energia_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-258",
+      "nombre": "Fragmento de matriz cuántica",
+      "categoria": "investigación",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "sensores_pct": 4,
+        "eficiencia_energia_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-259",
+      "nombre": "Núcleo lógico recuperado",
+      "categoria": "investigación",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "sensores_pct": 3,
+        "eficiencia_energia_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-260",
+      "nombre": "Muestra de nanomaterial",
+      "categoria": "investigación",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "sensores_pct": 2,
+        "eficiencia_energia_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-261",
+      "nombre": "Compendio de ingeniería alienígena",
+      "categoria": "investigación",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "sensores_pct": 3,
+        "eficiencia_energia_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-262",
+      "nombre": "Mapa de anomalías subespaciales",
+      "categoria": "investigación",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "sensores_pct": 4,
+        "eficiencia_energia_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-263",
+      "nombre": "Registro de firma transwarp",
+      "categoria": "investigación",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "sensores_pct": 3,
+        "eficiencia_energia_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-264",
+      "nombre": "Módulo experimental de laboratorio",
+      "categoria": "investigación",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "sensores_pct": 2,
+        "eficiencia_energia_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-265",
+      "nombre": "Base de datos arqueotécnica",
+      "categoria": "investigación",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "sensores_pct": 1,
+        "eficiencia_energia_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-266",
+      "nombre": "Amplificador de deflector",
+      "categoria": "deflectores",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "deflectores_pct": 6,
+        "tractor_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-267",
+      "nombre": "Regulador de campo deflector",
+      "categoria": "deflectores",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "deflectores_pct": 6,
+        "tractor_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-268",
+      "nombre": "Módulo de desvío de partículas",
+      "categoria": "deflectores",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "deflectores_pct": 3,
+        "tractor_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-269",
+      "nombre": "Proyector deflector auxiliar",
+      "categoria": "deflectores",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 2,
+      "efectos": {
+        "deflectores_pct": 6,
+        "tractor_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-270",
+      "nombre": "Compensador de sobrecarga deflectora",
+      "categoria": "deflectores",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "deflectores_pct": 5,
+        "tractor_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-271",
+      "nombre": "Reforzador del plato deflector",
+      "categoria": "deflectores",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "deflectores_pct": 4,
+        "tractor_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-272",
+      "nombre": "Matriz de dispersión de partículas",
+      "categoria": "deflectores",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "deflectores_pct": 6,
+        "tractor_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-273",
+      "nombre": "Controlador de haz tractor",
+      "categoria": "deflectores",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "deflectores_pct": 4,
+        "tractor_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-274",
+      "nombre": "Estabilizador de campo frontal",
+      "categoria": "deflectores",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 2,
+      "efectos": {
+        "deflectores_pct": 3,
+        "tractor_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-275",
+      "nombre": "Deflector de navegación reforzado",
+      "categoria": "deflectores",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 2,
+      "efectos": {
+        "deflectores_pct": 3,
+        "tractor_pct": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-276",
+      "nombre": "Banco de energía deflectora",
+      "categoria": "deflectores",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "deflectores_pct": 7,
+        "tractor_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-277",
+      "nombre": "Reductor de firma térmica",
+      "categoria": "sigilo",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "firma_sensor_pct": -2,
+        "evasion_puntos": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-278",
+      "nombre": "Disipador de emisiones",
+      "categoria": "sigilo",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "firma_sensor_pct": -4,
+        "evasion_puntos": 0
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-279",
+      "nombre": "Módulo de silencio electrónico",
+      "categoria": "sigilo",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "firma_sensor_pct": -5,
+        "evasion_puntos": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-280",
+      "nombre": "Generador de señuelo subespacial",
+      "categoria": "sigilo",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "firma_sensor_pct": -3,
+        "evasion_puntos": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-281",
+      "nombre": "Compensador de firma warp",
+      "categoria": "sigilo",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "firma_sensor_pct": -4,
+        "evasion_puntos": 0
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-282",
+      "nombre": "Absorbente de emisiones tácticas",
+      "categoria": "sigilo",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "firma_sensor_pct": -5,
+        "evasion_puntos": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-283",
+      "nombre": "Matriz de ocultación parcial",
+      "categoria": "sigilo",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "firma_sensor_pct": -4,
+        "evasion_puntos": 1
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-284",
+      "nombre": "Controlador de emisiones pasivas",
+      "categoria": "sigilo",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "firma_sensor_pct": -2,
+        "evasion_puntos": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-285",
+      "nombre": "Enmascarador de telemetría",
+      "categoria": "sigilo",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "firma_sensor_pct": -4,
+        "evasion_puntos": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-286",
+      "nombre": "Filtro de firma de reactor",
+      "categoria": "sigilo",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "firma_sensor_pct": -5,
+        "evasion_puntos": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-287",
+      "nombre": "Atenuador de comunicaciones",
+      "categoria": "sigilo",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "firma_sensor_pct": -5,
+        "evasion_puntos": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-288",
+      "nombre": "Módulo de navegación silenciosa",
+      "categoria": "sigilo",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "firma_sensor_pct": -5,
+        "evasion_puntos": 0
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-289",
+      "nombre": "Lanza de ruptura de escudos",
+      "categoria": "especial_npc",
+      "rareza": "muy raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 3,
+      "efectos": {
+        "dps_pct": 4,
+        "escudos_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-290",
+      "nombre": "Emisor de interferencia táctica",
+      "categoria": "especial_npc",
+      "rareza": "común",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 8,
+        "escudos_pct": 5
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-291",
+      "nombre": "Proyector de campo de interdicción",
+      "categoria": "especial_npc",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 5,
+        "escudos_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-292",
+      "nombre": "Cañón de pulso pesado NPC",
+      "categoria": "especial_npc",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 2,
+      "efectos": {
+        "dps_pct": 9,
+        "escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-293",
+      "nombre": "Nodo de mando de flota",
+      "categoria": "especial_npc",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 2,
+      "efectos": {
+        "dps_pct": 5,
+        "escudos_pct": 5
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-294",
+      "nombre": "Matriz de reparación avanzada NPC",
+      "categoria": "especial_npc",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 6,
+        "escudos_pct": 4
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-295",
+      "nombre": "Banco de munición reforzado",
+      "categoria": "especial_npc",
+      "rareza": "élite",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 3,
+      "efectos": {
+        "dps_pct": 5,
+        "escudos_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-296",
+      "nombre": "Computador de tiro de almirante",
+      "categoria": "especial_npc",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 9,
+        "escudos_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-297",
+      "nombre": "Escudo auxiliar de mando",
+      "categoria": "especial_npc",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 2,
+      "efectos": {
+        "dps_pct": 8,
+        "escudos_pct": 5
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-298",
+      "nombre": "Reactor táctico reforzado",
+      "categoria": "especial_npc",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 1,
+      "efectos": {
+        "dps_pct": 8,
+        "escudos_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-299",
+      "nombre": "Módulo de coordinación de escoltas",
+      "categoria": "especial_npc",
+      "rareza": "mejorado",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 4,
+      "efectos": {
+        "dps_pct": 8,
+        "escudos_pct": 2
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    },
+    {
+      "id": "ITM-300",
+      "nombre": "Sensor estratégico de largo alcance",
+      "categoria": "especial_npc",
+      "rareza": "raro",
+      "tipo": "instalable",
+      "instalable": true,
+      "espacio_almacenamiento": 2,
+      "efectos": {
+        "dps_pct": 7,
+        "escudos_pct": 3
+      },
+      "descripcion": "Mejora moderada que complementa las capacidades de la nave sin sustituir el balance de su clase."
+    }
+  ]
+}

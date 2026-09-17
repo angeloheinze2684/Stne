@@ -1,0 +1,1026 @@
+{
+  "version": "1.0",
+  "total": 50,
+  "items": [
+    {
+      "id": "USO1-001",
+      "nombre": "Cristal de ajuste EPS",
+      "categoria": "mejora_permanente",
+      "rareza": "élite",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 18
+      },
+      "efectos": {
+        "energia_principal_pct": 2
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-002",
+      "nombre": "Matriz de blindaje sellada",
+      "categoria": "mejora_permanente",
+      "rareza": "élite",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 18
+      },
+      "efectos": {
+        "energia_principal_pct": 2
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-003",
+      "nombre": "Núcleo de calibración táctica",
+      "categoria": "mejora_permanente",
+      "rareza": "común",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 12
+      },
+      "efectos": {
+        "eps_pct": 3
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-004",
+      "nombre": "Compuesto de casco de alta densidad",
+      "categoria": "mejora_permanente",
+      "rareza": "común",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 12
+      },
+      "efectos": {
+        "eps_pct": 6
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-005",
+      "nombre": "Banco de memoria de navegación",
+      "categoria": "mejora_permanente",
+      "rareza": "muy raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 24
+      },
+      "efectos": {
+        "energia_principal_pct": 2
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-006",
+      "nombre": "Módulo de escudo cristalizado",
+      "categoria": "mejora_permanente",
+      "rareza": "élite",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 18
+      },
+      "efectos": {
+        "rango_vuelo_pct": 2
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-007",
+      "nombre": "Regulador de reactor de precisión",
+      "categoria": "mejora_permanente",
+      "rareza": "raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 24
+      },
+      "efectos": {
+        "evasion_puntos": 5
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-008",
+      "nombre": "Matriz de sensores encapsulada",
+      "categoria": "mejora_permanente",
+      "rareza": "raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 18
+      },
+      "efectos": {
+        "evasion_puntos": 3
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-009",
+      "nombre": "Conjunto de actuadores de maniobra",
+      "categoria": "mejora_permanente",
+      "rareza": "muy raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 24
+      },
+      "efectos": {
+        "evasion_puntos": 6
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-010",
+      "nombre": "Unidad de distribución energética",
+      "categoria": "mejora_permanente",
+      "rareza": "élite",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 40
+      },
+      "efectos": {
+        "energia_principal_pct": 3
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-011",
+      "nombre": "Carga de sobrepotencia ofensiva",
+      "categoria": "combate",
+      "rareza": "raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 12
+      },
+      "efectos": {
+        "dps_pct": 6,
+        "precision_pct": 3
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-012",
+      "nombre": "Paquete de calibración de phaser",
+      "categoria": "combate",
+      "rareza": "muy raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 12
+      },
+      "efectos": {
+        "dps_pct": 8,
+        "precision_pct": 2
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-013",
+      "nombre": "Paquete de calibración de disruptor",
+      "categoria": "combate",
+      "rareza": "común",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 24
+      },
+      "efectos": {
+        "dps_pct": 9,
+        "precision_pct": 2
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-014",
+      "nombre": "Paquete de calibración de polaron",
+      "categoria": "combate",
+      "rareza": "común",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 12
+      },
+      "efectos": {
+        "dps_pct": 8,
+        "precision_pct": 3
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-015",
+      "nombre": "Módulo de afinación de torpedos",
+      "categoria": "combate",
+      "rareza": "raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 18
+      },
+      "efectos": {
+        "dps_pct": 8,
+        "precision_pct": 3
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-016",
+      "nombre": "Matriz de impacto reforzado",
+      "categoria": "combate",
+      "rareza": "común",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 40
+      },
+      "efectos": {
+        "dps_pct": 10,
+        "precision_pct": 3
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-017",
+      "nombre": "Banco de tiro de precisión",
+      "categoria": "combate",
+      "rareza": "muy raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 18
+      },
+      "efectos": {
+        "dps_pct": 5,
+        "precision_pct": 4
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-018",
+      "nombre": "Sistema de enfriamiento sellado",
+      "categoria": "combate",
+      "rareza": "muy raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 18
+      },
+      "efectos": {
+        "dps_pct": 5,
+        "precision_pct": 3
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-019",
+      "nombre": "Amplificador de cañón pesado",
+      "categoria": "combate",
+      "rareza": "mejorado",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 18
+      },
+      "efectos": {
+        "dps_pct": 10,
+        "precision_pct": 4
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-020",
+      "nombre": "Kit de estabilización balística",
+      "categoria": "combate",
+      "rareza": "mejorado",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 24
+      },
+      "efectos": {
+        "dps_pct": 8,
+        "precision_pct": 1
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-021",
+      "nombre": "Refuerzo definitivo de mamparos",
+      "categoria": "defensa",
+      "rareza": "élite",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 12
+      },
+      "efectos": {
+        "casco_pct": 7,
+        "escudos_pct": 4
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-022",
+      "nombre": "Malla de escudo endurecida",
+      "categoria": "defensa",
+      "rareza": "élite",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 12
+      },
+      "efectos": {
+        "casco_pct": 9,
+        "escudos_pct": 5
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-023",
+      "nombre": "Placa estructural experimental",
+      "categoria": "defensa",
+      "rareza": "mejorado",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 24
+      },
+      "efectos": {
+        "casco_pct": 6,
+        "escudos_pct": 3
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-024",
+      "nombre": "Sellador de casco de grado militar",
+      "categoria": "defensa",
+      "rareza": "élite",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 24
+      },
+      "efectos": {
+        "casco_pct": 4,
+        "escudos_pct": 6
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-025",
+      "nombre": "Módulo de deflector reforzado",
+      "categoria": "defensa",
+      "rareza": "común",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 12
+      },
+      "efectos": {
+        "casco_pct": 7,
+        "escudos_pct": 4
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-026",
+      "nombre": "Compensador permanente de impactos",
+      "categoria": "defensa",
+      "rareza": "muy raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 24
+      },
+      "efectos": {
+        "casco_pct": 8,
+        "escudos_pct": 5
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-027",
+      "nombre": "Matriz de absorción de energía",
+      "categoria": "defensa",
+      "rareza": "raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 12
+      },
+      "efectos": {
+        "casco_pct": 6,
+        "escudos_pct": 7
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-028",
+      "nombre": "Conjunto de blindaje reactivo",
+      "categoria": "defensa",
+      "rareza": "común",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 24
+      },
+      "efectos": {
+        "casco_pct": 8,
+        "escudos_pct": 3
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-029",
+      "nombre": "Banco de regeneración defensiva",
+      "categoria": "defensa",
+      "rareza": "muy raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 40
+      },
+      "efectos": {
+        "casco_pct": 10,
+        "escudos_pct": 6
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-030",
+      "nombre": "Proyector de contención estructural",
+      "categoria": "defensa",
+      "rareza": "común",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 18
+      },
+      "efectos": {
+        "casco_pct": 4,
+        "escudos_pct": 6
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-031",
+      "nombre": "Expansión sellada de bodega",
+      "categoria": "logística",
+      "rareza": "común",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 12
+      },
+      "efectos": {
+        "tripulacion_max_bonus": 300
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-032",
+      "nombre": "Contenedor dimensional estable",
+      "categoria": "logística",
+      "rareza": "común",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 40
+      },
+      "efectos": {
+        "tripulacion_max_bonus": 150
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-033",
+      "nombre": "Módulo de carga Ferengi de un solo uso",
+      "categoria": "logística",
+      "rareza": "mejorado",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 40
+      },
+      "efectos": {
+        "hangar_bonus": 200
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-034",
+      "nombre": "Paquete de ampliación de torpedos",
+      "categoria": "logística",
+      "rareza": "mejorado",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 40
+      },
+      "efectos": {
+        "tripulacion_max_bonus": 400
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-035",
+      "nombre": "Conjunto de soportes de hangar",
+      "categoria": "logística",
+      "rareza": "común",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 12
+      },
+      "efectos": {
+        "tripulacion_max_bonus": 250
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-036",
+      "nombre": "Módulo de habitabilidad expandida",
+      "categoria": "logística",
+      "rareza": "muy raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 24
+      },
+      "efectos": {
+        "capacidad_torpedos_bonus": 150
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-037",
+      "nombre": "Kit de optimización de carga",
+      "categoria": "logística",
+      "rareza": "mejorado",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 24
+      },
+      "efectos": {
+        "hangar_bonus": 150
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-038",
+      "nombre": "Compresor logístico permanente",
+      "categoria": "logística",
+      "rareza": "élite",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 40
+      },
+      "efectos": {
+        "almacenamiento_bonus": 200
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-039",
+      "nombre": "Banco de almacenamiento técnico",
+      "categoria": "logística",
+      "rareza": "raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 3,
+        "slots_maximos": 12
+      },
+      "efectos": {
+        "almacenamiento_bonus": 200
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-040",
+      "nombre": "Módulo de transporte reforzado",
+      "categoria": "logística",
+      "rareza": "mejorado",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 24
+      },
+      "efectos": {
+        "hangar_bonus": 200
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-041",
+      "nombre": "Reliquia tecnológica prewarp",
+      "categoria": "lore_especial",
+      "rareza": "raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 12
+      },
+      "efectos": {
+        "eps_pct": 3
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-042",
+      "nombre": "Fragmento de núcleo transwarp estable",
+      "categoria": "lore_especial",
+      "rareza": "muy raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 18
+      },
+      "efectos": {
+        "escudos_pct": 2
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-043",
+      "nombre": "Compendio de ingeniería antigua",
+      "categoria": "lore_especial",
+      "rareza": "mejorado",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 18
+      },
+      "efectos": {
+        "casco_pct": 2
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-044",
+      "nombre": "Léxico maestro de una civilización perdida",
+      "categoria": "lore_especial",
+      "rareza": "élite",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 24
+      },
+      "efectos": {
+        "escudos_pct": 4
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-045",
+      "nombre": "Matriz alienígena sellada",
+      "categoria": "lore_especial",
+      "rareza": "élite",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 2,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 18
+      },
+      "efectos": {
+        "rango_vuelo_pct": 3
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-046",
+      "nombre": "Artefacto de calibración cuántica",
+      "categoria": "lore_especial",
+      "rareza": "raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 40
+      },
+      "efectos": {
+        "eps_pct": 2
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-047",
+      "nombre": "Núcleo lógico ancestral",
+      "categoria": "lore_especial",
+      "rareza": "muy raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 40
+      },
+      "efectos": {
+        "escudos_pct": 3
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-048",
+      "nombre": "Cristal de navegación de origen desconocido",
+      "categoria": "lore_especial",
+      "rareza": "raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 5,
+        "slots_maximos": 24
+      },
+      "efectos": {
+        "lrs_bonus": 4
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-049",
+      "nombre": "Módulo experimental de procedencia clasificada",
+      "categoria": "lore_especial",
+      "rareza": "mejorado",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 2,
+        "slots_maximos": 18
+      },
+      "efectos": {
+        "eps_pct": 2
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    },
+    {
+      "id": "USO1-050",
+      "nombre": "Dispositivo de armonización subespacial",
+      "categoria": "lore_especial",
+      "rareza": "muy raro",
+      "tipo": "objeto de un solo uso",
+      "reutilizable": false,
+      "espacio_almacenamiento": 1,
+      "restricciones": {
+        "slots_minimos": 1,
+        "slots_maximos": 18
+      },
+      "efectos": {
+        "rango_vuelo_pct": 4
+      },
+      "efecto_permanente": true,
+      "se_destruye_al_usar": true,
+      "mensaje_uso": "El objeto ha sido activado con éxito. Sus mejoras han sido aplicadas a la nave y el objeto ha sido consumido y destruido.",
+      "descripcion": "Objeto de un solo uso. Al activarse aplica su mejora a la nave de forma permanente y desaparece del inventario."
+    }
+  ]
+}
