@@ -1,0 +1,595 @@
+{
+  "version": "2.0",
+  "meta": {
+    "project": "NEXUS Galactic Empire",
+    "database": "stellar_map",
+    "chunk_size": 32,
+    "map_rendering": "sprite tile per sector",
+    "sprite_root": "assets/map/"
+  },
+  "maps": [
+    {
+      "map_id": 0,
+      "name": "Galaxia principal",
+      "default_sector_type": "SPACE_OPEN",
+      "is_active": true
+    }
+  ],
+  "regions": [],
+  "sector_types": [
+    {
+      "sector_type_id": "SPACE_OPEN",
+      "name": "Espacio",
+      "original_name": null,
+      "category": "space",
+      "sprite": "assets/map/space_open.png",
+      "colonizable": false,
+      "flight_cost_multiplier": 1.0,
+      "entry_effects": [],
+      "round_effects": [],
+      "hazards": [],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "DEEP_SPACE",
+      "name": "Espacio profundo",
+      "original_name": "Tiefenraum",
+      "category": "space",
+      "sprite": "assets/map/deep_space.png",
+      "colonizable": false,
+      "flight_cost_multiplier": 2.0,
+      "entry_effects": [
+        "Doble costo de vuelo al entrar."
+      ],
+      "round_effects": [],
+      "hazards": [],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "DARK_SPACE",
+      "name": "Espacio oscuro",
+      "original_name": "Dunkler Raum",
+      "category": "space",
+      "sprite": "assets/map/dark_space.png",
+      "colonizable": false,
+      "flight_cost_multiplier": 3.0,
+      "entry_effects": [
+        "Triple costo de vuelo al entrar."
+      ],
+      "round_effects": [],
+      "hazards": [],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "ASTEROID_SMALL",
+      "name": "Campo de asteroides pequeño",
+      "original_name": null,
+      "category": "asteroid",
+      "sprite": "assets/map/asteroid_small.png",
+      "colonizable": true,
+      "flight_cost_multiplier": 2.0,
+      "entry_effects": [
+        "Doble costo de vuelo al entrar."
+      ],
+      "round_effects": [
+        "Probabilidad del 1% de chocar con los asteroides."
+      ],
+      "hazards": [
+        "colisión con asteroides"
+      ],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "ASTEROID_LARGE",
+      "name": "Campo de asteroides grande",
+      "original_name": null,
+      "category": "asteroid",
+      "sprite": "assets/map/asteroid_large.png",
+      "colonizable": true,
+      "flight_cost_multiplier": 3.0,
+      "entry_effects": [
+        "Triple costo de vuelo al entrar."
+      ],
+      "round_effects": [
+        "Probabilidad del 2% de chocar con los asteroides."
+      ],
+      "hazards": [
+        "colisión con asteroides"
+      ],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "ICE_ASTEROID",
+      "name": "Asteroide de hielo",
+      "original_name": null,
+      "category": "asteroid",
+      "sprite": "assets/map/ice_asteroid.png",
+      "colonizable": true,
+      "flight_cost_multiplier": 3.0,
+      "entry_effects": [
+        "Triple costo de vuelo al entrar."
+      ],
+      "round_effects": [
+        "Probabilidad del 2% de chocar con los asteroides."
+      ],
+      "hazards": [
+        "colisión con asteroides"
+      ],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "PLANET_MODERATE",
+      "name": "Planeta moderado",
+      "original_name": null,
+      "category": "planet",
+      "sprite": "assets/map/planet_moderate.png",
+      "colonizable": true,
+      "flight_cost_multiplier": 1.0,
+      "entry_effects": [],
+      "round_effects": [],
+      "hazards": [],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "PLANET_DESERT",
+      "name": "Planeta desértico",
+      "original_name": null,
+      "category": "planet",
+      "sprite": "assets/map/planet_desert.png",
+      "colonizable": true,
+      "flight_cost_multiplier": 1.0,
+      "entry_effects": [],
+      "round_effects": [],
+      "hazards": [],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "PLANET_ICE",
+      "name": "Planeta de hielo",
+      "original_name": null,
+      "category": "planet",
+      "sprite": "assets/map/planet_ice.png",
+      "colonizable": true,
+      "flight_cost_multiplier": 1.0,
+      "entry_effects": [],
+      "round_effects": [],
+      "hazards": [],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "PLANET_M",
+      "name": "Planeta de Clase-M",
+      "original_name": null,
+      "category": "planet",
+      "sprite": "assets/map/planet_m.png",
+      "colonizable": true,
+      "flight_cost_multiplier": 1.0,
+      "entry_effects": [],
+      "round_effects": [],
+      "hazards": [],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "PLANET_WATER",
+      "name": "Planeta de agua",
+      "original_name": null,
+      "category": "planet",
+      "sprite": "assets/map/planet_water.png",
+      "colonizable": true,
+      "flight_cost_multiplier": 1.0,
+      "entry_effects": [],
+      "round_effects": [],
+      "hazards": [],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "PLANET_ROCK",
+      "name": "Planeta de roca",
+      "original_name": null,
+      "category": "planet",
+      "sprite": "assets/map/planet_rock.png",
+      "colonizable": true,
+      "flight_cost_multiplier": 3.0,
+      "entry_effects": [
+        "Triple costo de vuelo al entrar."
+      ],
+      "round_effects": [
+        "Probabilidad del 2% de chocar con los asteroides."
+      ],
+      "hazards": [
+        "colisión con terreno rocoso"
+      ],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "media",
+      "notes": "El coste/colisión se interpreta de la fila visible en la leyenda aportada."
+    },
+    {
+      "sector_type_id": "PLANET_LAVA",
+      "name": "Planeta de lava",
+      "original_name": null,
+      "category": "planet",
+      "sprite": "assets/map/planet_lava.png",
+      "colonizable": true,
+      "flight_cost_multiplier": 1.0,
+      "entry_effects": [],
+      "round_effects": [],
+      "hazards": [],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "NEUTRON_STAR",
+      "name": "Estrella de neutrón",
+      "original_name": null,
+      "category": "star",
+      "sprite": "assets/map/neutron_star.png",
+      "colonizable": false,
+      "flight_cost_multiplier": 1.0,
+      "entry_effects": [
+        "La tripulación huye si los escudos están desactivados."
+      ],
+      "round_effects": [
+        "La tripulación huye si los escudos están desactivados."
+      ],
+      "hazards": [
+        "riesgo extremo para la tripulación"
+      ],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "DYSON",
+      "name": "Esfera de Dyson",
+      "original_name": null,
+      "category": "megastructure",
+      "sprite": "assets/map/dyson.png",
+      "colonizable": true,
+      "flight_cost_multiplier": 1.0,
+      "entry_effects": [],
+      "round_effects": [],
+      "hazards": [],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "ANOMALY_ORIGIN",
+      "name": "Origen de anomalía",
+      "original_name": "Ursprung der Anomalie",
+      "category": "anomaly",
+      "sprite": "assets/map/anomaly_origin.png",
+      "colonizable": false,
+      "flight_cost_multiplier": 1.0,
+      "entry_effects": [
+        "Efecto de entrada desconocido (??? en la leyenda)."
+      ],
+      "round_effects": [
+        "Efecto por ronda desconocido (??? en la leyenda)."
+      ],
+      "hazards": [
+        "efecto desconocido"
+      ],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "pendiente",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "ANOMALY",
+      "name": "Anomalía",
+      "original_name": null,
+      "category": "anomaly",
+      "sprite": "assets/map/anomaly.png",
+      "colonizable": false,
+      "flight_cost_multiplier": 1.0,
+      "entry_effects": [
+        "Efecto de entrada desconocido (?) en la leyenda."
+      ],
+      "round_effects": [
+        "Efecto por ronda desconocido (?) en la leyenda."
+      ],
+      "hazards": [
+        "efecto desconocido"
+      ],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "pendiente",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "NEB_DEUT_SPARSE",
+      "name": "Nebulosa dispersa de deuterio",
+      "original_name": null,
+      "category": "nebula",
+      "sprite": "assets/map/neb_deut_sparse.png",
+      "colonizable": false,
+      "flight_cost_multiplier": 2.0,
+      "entry_effects": [
+        "Doble costo de vuelo al entrar."
+      ],
+      "round_effects": [],
+      "hazards": [],
+      "deuterium_density": 3,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "NEB_DEUT_DENSE",
+      "name": "Nebulosa densa de deuterio",
+      "original_name": null,
+      "category": "nebula",
+      "sprite": "assets/map/neb_deut_dense.png",
+      "colonizable": false,
+      "flight_cost_multiplier": 3.0,
+      "entry_effects": [
+        "Triple costo de vuelo al entrar."
+      ],
+      "round_effects": [
+        "Fallo en todos los escudos y sensores."
+      ],
+      "hazards": [
+        "fallo de escudos",
+        "fallo de sensores"
+      ],
+      "deuterium_density": 5,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "NEB_METAPHASIC",
+      "name": "Nebulosa metafásica",
+      "original_name": null,
+      "category": "nebula",
+      "sprite": "assets/map/neb_metaphasic.png",
+      "colonizable": false,
+      "flight_cost_multiplier": 2.0,
+      "entry_effects": [
+        "Doble costo de vuelo al entrar."
+      ],
+      "round_effects": [
+        "Los escudos cargan un 25% más rápido.",
+        "No hay asimilación posible."
+      ],
+      "hazards": [
+        "asimilación bloqueada"
+      ],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "NEB_METRION",
+      "name": "Nebulosa de gas metrión",
+      "original_name": null,
+      "category": "nebula",
+      "sprite": "assets/map/neb_metrion.png",
+      "colonizable": false,
+      "flight_cost_multiplier": 2.0,
+      "entry_effects": [
+        "Doble costo de vuelo al entrar."
+      ],
+      "round_effects": [],
+      "hazards": [],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "NEB_CERULEAN",
+      "name": "Nebulosa cerúlea",
+      "original_name": null,
+      "category": "nebula",
+      "sprite": "assets/map/neb_cerulean.png",
+      "colonizable": false,
+      "flight_cost_multiplier": 1.0,
+      "entry_effects": [
+        "Pérdida del 5% del EPS al entrar.",
+        "Fallo de la computadora principal si no se cuenta con EPS suficiente.",
+        "La nave no puede acceder a sus reservas de warp en esa condición."
+      ],
+      "round_effects": [
+        "Pérdida del 5% de energía.",
+        "No se puede usar rayo tractor.",
+        "Los transportadores siguen operativos."
+      ],
+      "hazards": [
+        "drenaje EPS",
+        "drenaje de energía",
+        "tractor bloqueado"
+      ],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "NEB_RADIATION",
+      "name": "Nebulosa radiactiva",
+      "original_name": null,
+      "category": "nebula",
+      "sprite": "assets/map/neb_radiation.png",
+      "colonizable": false,
+      "flight_cost_multiplier": 1.0,
+      "entry_effects": [
+        "Entre 10% y 70% de la tripulación huye por radiación; como mínimo 1 tripulante.",
+        "Con escudos desactivados, la tripulación huye en su totalidad."
+      ],
+      "round_effects": [
+        "Entre 10% y 70% de la tripulación huye por radiación; como mínimo 1 tripulante.",
+        "Con escudos desactivados, la tripulación huye en su totalidad."
+      ],
+      "hazards": [
+        "radiación",
+        "pérdida de tripulación"
+      ],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "INNER_SPACE",
+      "name": "Espacio interior",
+      "original_name": "Innenraum",
+      "category": "special",
+      "sprite": "assets/map/inner_space.png",
+      "colonizable": false,
+      "flight_cost_multiplier": 1.0,
+      "entry_effects": [],
+      "round_effects": [],
+      "hazards": [],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "ENERGY_CONDUIT",
+      "name": "Conducto de energía",
+      "original_name": "Energieleitung",
+      "category": "special",
+      "sprite": "assets/map/energy_conduit.png",
+      "colonizable": false,
+      "flight_cost_multiplier": 1.0,
+      "entry_effects": [],
+      "round_effects": [],
+      "hazards": [],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "PLASMA_CONDUIT",
+      "name": "Conducto de plasma",
+      "original_name": "Plasmaleitung",
+      "category": "special",
+      "sprite": "assets/map/plasma_conduit.png",
+      "colonizable": false,
+      "flight_cost_multiplier": 1.0,
+      "entry_effects": [
+        "Doble costo de energía para la entrada."
+      ],
+      "round_effects": [],
+      "hazards": [],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "WALL",
+      "name": "Pared",
+      "original_name": "Wand",
+      "category": "special",
+      "sprite": "assets/map/wall.png",
+      "colonizable": false,
+      "flight_cost_multiplier": 1.0,
+      "entry_effects": [],
+      "round_effects": [],
+      "hazards": [],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "SUBSPACE_RIFT",
+      "name": "Grieta subespacial",
+      "original_name": null,
+      "category": "anomaly",
+      "sprite": "assets/map/subspace_rift.png",
+      "colonizable": false,
+      "flight_cost_multiplier": 99.0,
+      "entry_effects": [
+        "ADVERTENCIA: al ingresar se pierde totalmente la nave."
+      ],
+      "round_effects": [],
+      "hazards": [
+        "destrucción total de la nave"
+      ],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    },
+    {
+      "sector_type_id": "QUANTUM_SINGULARITY",
+      "name": "Singularidad cuántica",
+      "original_name": null,
+      "category": "anomaly",
+      "sprite": "assets/map/quantum_singularity.png",
+      "colonizable": false,
+      "flight_cost_multiplier": 1.0,
+      "entry_effects": [
+        "Hasta 50% de daños a la integridad; 10 puntos de daño como mínimo."
+      ],
+      "round_effects": [
+        "Hasta 50% de daños a la integridad; 10 puntos de daño como mínimo."
+      ],
+      "hazards": [
+        "daño severo a la integridad"
+      ],
+      "deuterium_density": 0,
+      "source_note": "Leyenda STNE aportada por el usuario mediante capturas.",
+      "confidence": "alta",
+      "notes": ""
+    }
+  ],
+  "sectors": [],
+  "celestial_bodies": [],
+  "resource_nodes": [],
+  "anomalies": [],
+  "ship_positions": [],
+  "colonies": [],
+  "structures": [],
+  "exploration": [],
+  "sensor_contacts": [],
+  "routes": [],
+  "bookmarks": [],
+  "territory_claims": [],
+  "map_events": []
+}
