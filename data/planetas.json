@@ -1,0 +1,148 @@
+{
+  "version": "1.0",
+  "planet_types": [
+    {
+      "id": "PLN-M",
+      "name": "Planeta estándar",
+      "class": "M",
+      "colonizable": true,
+      "terrains": [
+        "Pradera",
+        "Bosque",
+        "Montaña",
+        "Hielo",
+        "Desierto",
+        "Océano/agua",
+        "Órbita/espacio"
+      ]
+    },
+    {
+      "id": "PLN-MOD",
+      "name": "Planeta moderado",
+      "class": "Moderado",
+      "colonizable": true,
+      "terrains": [
+        "Pradera",
+        "Bosque",
+        "Montaña",
+        "Hielo",
+        "Agua",
+        "Órbita/espacio"
+      ]
+    },
+    {
+      "id": "PLN-DES",
+      "name": "Planeta desértico",
+      "class": "Desierto",
+      "colonizable": true,
+      "terrains": [
+        "Desierto",
+        "Roca",
+        "Cráter",
+        "Montaña",
+        "Órbita/espacio"
+      ]
+    },
+    {
+      "id": "PLN-ICE",
+      "name": "Planeta de hielo",
+      "class": "Hielo",
+      "colonizable": true,
+      "terrains": [
+        "Hielo",
+        "Glaciar",
+        "Roca",
+        "Cráter",
+        "Órbita/espacio"
+      ]
+    },
+    {
+      "id": "PLN-WAT",
+      "name": "Planeta de agua",
+      "class": "Agua",
+      "colonizable": true,
+      "terrains": [
+        "Océano",
+        "Aguas someras",
+        "Isla/pradera",
+        "Costa",
+        "Órbita/espacio"
+      ]
+    },
+    {
+      "id": "PLN-ROCK",
+      "name": "Planeta rocoso",
+      "class": "Roca",
+      "colonizable": true,
+      "terrains": [
+        "Roca",
+        "Montaña",
+        "Cráter",
+        "Grieta",
+        "Órbita/espacio"
+      ]
+    },
+    {
+      "id": "PLN-LAVA",
+      "name": "Planeta de lava",
+      "class": "Lava",
+      "colonizable": true,
+      "terrains": [
+        "Lava",
+        "Volcán",
+        "Roca",
+        "Cráter",
+        "Grieta del núcleo",
+        "Órbita/espacio"
+      ]
+    },
+    {
+      "id": "PLN-AST-S",
+      "name": "Campo de asteroides pequeño",
+      "class": "Asteroides pequeños",
+      "colonizable": true,
+      "terrains": [
+        "Asteroide",
+        "Cráter",
+        "Roca",
+        "Espacio orbital"
+      ]
+    },
+    {
+      "id": "PLN-AST-L",
+      "name": "Campo de asteroides grande",
+      "class": "Asteroides grandes",
+      "colonizable": true,
+      "terrains": [
+        "Asteroide",
+        "Cráter",
+        "Roca",
+        "Espacio orbital"
+      ]
+    },
+    {
+      "id": "PLN-ICE-AST",
+      "name": "Asteroide de hielo",
+      "class": "Asteroide de hielo",
+      "colonizable": true,
+      "terrains": [
+        "Hielo",
+        "Roca",
+        "Cráter",
+        "Espacio orbital"
+      ]
+    },
+    {
+      "id": "PLN-DYSON",
+      "name": "Esfera Dyson",
+      "class": "Dyson",
+      "colonizable": true,
+      "terrains": [
+        "Segmento Dyson",
+        "Infraestructura artificial",
+        "Conducto de energía",
+        "Órbita/espacio"
+      ]
+    }
+  ]
+}
